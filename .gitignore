@@ -1,5 +1,7 @@
 uploads/*.jpg
+uploads/*.png
 detections/*.jpg
+detections/*.png
 checkpoints/*
 core/__pycache__
 static/images/Detection1.jpg
