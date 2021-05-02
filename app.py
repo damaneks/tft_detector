@@ -10,6 +10,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/detected')
+def show_detected():
+    return render_template('detected.html')
+
 @app.route('/detect', methods=['GET', 'POST'])
 def upload():
     if request.method == 'POST':
@@ -21,9 +25,9 @@ def upload():
 
         detection = tft_detector(file_path)
 
-        return redirect('/')
+        return redirect('/detected')
     else:   
         return None
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)

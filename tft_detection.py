@@ -61,5 +61,6 @@ def tft_detector(image_path):
     image = cv2.cvtColor(np.array(image), cv2.COLOR_BGR2RGB)
 
     cv2.imwrite(output + 'Detection1.jpg', image)
+    cv2.imwrite('./static/images/Detection1.jpg', image)
     return image
 
