@@ -7,6 +7,14 @@
     <title>TFT Detector</title>
 </head>
 <body>
-    Hello World
+    <h1>TFT Detector</h1>
+
+    <h2>Please upload your image</h2>
+    <div>
+        <form action='/detect' id="upload-file" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+            <input type="submit" value="Upload image">
+        </form>
+    </div>
 </body>
 </html>

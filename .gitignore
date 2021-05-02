@@ -1,0 +1,4 @@
+uploads/*.jpg
+detections/*.jpg
+checkpoints/*
+core/__pycache__
