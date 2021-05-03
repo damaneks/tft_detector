@@ -35,7 +35,6 @@ def draw_bbox(image, bboxes, classes=read_class_names(cfg.YOLO.CLASSES), show_la
     random.seed(None)
 
     out_boxes, out_scores, out_classes, num_boxes = bboxes
-    print(num_boxes)
     for i in range(num_boxes[0]):
         if int(out_classes[0][i]) < 0 or int(out_classes[0][i]) > num_classes: continue
         coor = out_boxes[0][i]

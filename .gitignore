@@ -6,3 +6,5 @@ checkpoints/*
 core/__pycache__
 static/images/Detection1.jpg
 __pycache__
+*.avi
+*.mp4
