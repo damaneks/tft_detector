@@ -1,6 +1,5 @@
-import darknet
+import darknet_lib as darknet
 import cv2
-import random
 
 config_file="/home/damian/darknet/cfg/yolov4_tft_set5.cfg"
 data_file="/home/damian/darknet/data/obj.data"

@@ -12,7 +12,7 @@
 
     <h2>Please upload your image</h2>
     <div>
-        <form action='/detect' id="upload-file" method="POST" enctype="multipart/form-data">
+        <form target="_blank" action='/detect' id="upload-file" method="POST" enctype="multipart/form-data">
             <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
             <input type="submit" value="Upload image">
         </form>
@@ -20,7 +20,7 @@
     <br>
     <h2>Please upload your video</h2>
     <div>
-        <form action='/detect_vid' id="upload-video" method="POST" enctype="multipart/form-data">
+        <form target="_blank" action='/detect_vid' id="upload-video" method="POST" enctype="multipart/form-data">
             <input type="file" name="file" id="videoUpload" accept=".mp4 .avi">
             <input type="submit" value="Upload video">
         </form>
