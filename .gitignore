@@ -6,3 +6,4 @@ checkpoints/*
 __pycache__
 *.avi
 *.mp4
+*.weights

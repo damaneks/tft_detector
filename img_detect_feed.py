@@ -2,9 +2,9 @@ import darknet_lib as darknet
 import cv2
 from flask import make_response
 
-config_file="/home/damian/darknet/cfg/yolov4_tft_set5.cfg"
-data_file="/home/damian/darknet/data/obj.data"
-weights="/home/damian/darknet/backup/yolov4_tft_set5_best.weights"
+config_file="model/yolov4_tft_set5.cfg"
+data_file="model/obj.data"
+weights="model/yolov4_tft_set5_best.weights"
 output_image_path="uploads/Detection.jpg"
 thresh=0.25
 darknet_width = 416
