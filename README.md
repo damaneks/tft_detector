@@ -17,9 +17,9 @@ The application is used to detect characters from the game Teamfight Tactics usi
 * Champions detection and preview from image
 
 #### To-do
-* Save collected data with occurrence of units in particular rounds
-* Save collected data with position of units
-* Display game analysis summary
-* Make website with results of analysis best players' games
-* Detecion acceleration
+* Saving collected data with occurrence of units in particular rounds
+* Saving collected data with position of units
+* Game analysis summary
+* Website with results of analysis best players' games
+* Detection acceleration
 * Items detecion
