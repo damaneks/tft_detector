@@ -13,6 +13,7 @@ The application is used to detect characters from the game Teamfight Tactics usi
 
 
 ## Demo
+![demo-usage](img/demo.gif)
 
 ## Technologies
 
