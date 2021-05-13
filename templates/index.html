@@ -1,29 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
-    <title>TFT Detector</title>
-</head>
-<body>
-    <h1>TFT Detector</h1>
+{% extends 'base.html' %}
+{% block content %}
 
+<div class="upload-container">
     <h2>Please upload your image</h2>
-    <div>
-        <form target="_blank" action='/detect' id="upload-file" method="POST" enctype="multipart/form-data">
-            <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
-            <input type="submit" value="Upload image">
-        </form>
-    </div>
-    <br>
+    <form target="_blank" action='/detect' id="upload-file" method="POST" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-col-75">
+                <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+            </div>
+            <div class="form-col-25">
+                <input type="submit" value="Upload image">
+            </div>
+        </div>
+    </form>
+</div>
+<br>
+
+<div class="upload-container">
     <h2>Please upload your video</h2>
-    <div>
-        <form target="_blank" action='/detect_vid' id="upload-video" method="POST" enctype="multipart/form-data">
-            <input type="file" name="file" id="videoUpload" accept=".mp4, .avi">
-            <input type="submit" value="Upload video">
-        </form>
-    </div>
-</body>
-</html>
+    <form target="_blank" action='/detect_vid' id="upload-video" method="POST" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-col-25">
+                <label for="player">Player:</label>
+            </div>
+            <div class="form-col-75">
+                <input type="text" id="player" name="player" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-col-25">
+                <label for="place_ended">Place ended:</label>
+            </div>
+            <div class="form-col-75">
+                <input type="number" id="place_ended" name="place_ended" min="1" max="8" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-col-25">
+                <label for="date">Date:</label>
+            </div>
+            <div class="form-col-75">
+                <input type="date" id="date" name="date" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-col-25">
+                <label for="region">Region:</label>
+            </div>
+            <div class="form-col-75">
+                <input type="text" id="region" name="region" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-col-75">
+                <input type="file" name="file" id="videoUpload" accept=".mp4, .avi">
+            </div>
+            <div class="form-col-25">
+                <input type="submit" value="Upload video">
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

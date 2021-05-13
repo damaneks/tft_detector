@@ -28,19 +28,27 @@ def upload():
 def upload_vid():
     if request.method == 'POST':
         f = request.files['file']
+        player = request.form['player']
+        place_ended = request.form['place_ended']
+        date = request.form['date']
+        region = request.form['region']
 
         basepath = os.path.dirname(__file__)
         file_path = os.path.join(basepath, 'uploads', secure_filename(f.filename))
         f.save(file_path)
 
-        return redirect('/video_feed/' + secure_filename(f.filename))   
+        return redirect(url_for('video_feed', file_name=secure_filename(f.filename), player=player, place_ended=place_ended, date=date, region=region))   
     else:
         return None
 
-@app.route('/video_feed/<string:file_name>')
-def video_feed(file_name):
-    file_name = 'uploads/' + file_name
-    return Response(vid_detecion_feed(file_name), mimetype='multipart/x-mixed-replace; boundary=frame')
+@app.route('/video_feed')
+def video_feed():
+    file_name = 'uploads/' + request.args.get('file_name')
+    player = request.args.get('player')
+    place_ended = request.args.get('place_ended')
+    date = request.args.get('date')
+    region = request.args.get('region')
+    return Response(vid_detecion_feed(file_name, player, place_ended, date, region), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/image_feed/<string:file_name>')
 def image_feed(file_name):

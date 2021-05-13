@@ -2,3 +2,47 @@ body {
     background-color: #343a40;
     color: #dee2e6;
 }
+
+input[type=text], input[type=number], input[type=date] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.upload-container {
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form-col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.form-col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 500px){
+    .form-col-25, .form-col-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+}
