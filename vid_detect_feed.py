@@ -2,19 +2,30 @@ import darknet_lib as darknet
 import cv2
 import json
 
-config_file="model/yolov4_tft_set5.cfg"
-data_file="model/obj.data"
-weights="model/yolov4_tft_set5_best.weights"
+champs_model = {
+    'config': "model/champs/yolov4_tft_set5.cfg",
+    'data': "model/champs/obj.data",
+    'weights': "model/champs/yolov4_tft_set5_best.weights"
+}
+
+rounds_model = {
+    'config': "model/rounds/yolov4_rounds.cfg",
+    'data': "model/rounds/rounds.data",
+    'weights': "model/rounds/yolov4_rounds_best.weights"
+}
 detections_dir = 'detections/'
 thresh=0.25
-darknet_width = 416
-darknet_height = 416
+#darknet_width = 416
+#darknet_height = 416
+darknet_width = 608
+darknet_height = 608
+
 
 def vid_detecion_feed(video_path, player, place_ended, date, region):
     network, class_names, class_colors = darknet.load_network(
-        config_file,
-        data_file,
-        weights,
+        rounds_model['config'],
+        rounds_model['data'],
+        rounds_model['weights'],
         batch_size=1
     )
     

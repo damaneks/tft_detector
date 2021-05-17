@@ -2,5 +2,5 @@ classes = 58
 train  = data/train.txt
 test  = data/test.txt
 valid = data/valid.txt
-names  = model/classes.names
+names  = model/champs/classes.names
 backup = backup/
