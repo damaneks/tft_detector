@@ -1,0 +1,6 @@
+classes = 1
+train  = data/train_counter.txt
+test  = data/test_counter.txt
+valid = data/valid_counter.txt
+names  = model/counter/counter.names
+backup = backup_counter/
