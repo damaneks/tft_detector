@@ -1,0 +1,6 @@
+classes = 24
+train  = data/train_cropped.txt
+test  = data/test_cropped.txt
+valid = data/valid_cropped.txt
+names  = model/rounds/cropped.names
+backup = backup_cropped/

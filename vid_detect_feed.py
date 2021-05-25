@@ -9,9 +9,9 @@ champs_model_files = {
 }
 
 rounds_model_files = {
-    'config': "model/rounds/yolov4_rounds.cfg",
-    'data': "model/rounds/rounds.data",
-    'weights': "model/rounds/yolov4_rounds_best.weights"
+    'config': "model/rounds/yolov4_cropped.cfg",
+    'data': "model/rounds/cropped.data",
+    'weights': "model/rounds/yolov4_cropped_best.weights"
 }
 
 counter_model_files = {
@@ -21,9 +21,6 @@ counter_model_files = {
 }
 
 detections_dir = 'detections/'
-thresh=0.25
-#darknet_width = 416
-#darknet_height = 416
 darknet_width = 512
 darknet_height = 512
 
@@ -36,15 +33,13 @@ def vid_detecion_feed(video_path, player, place_ended, date, region):
     champs_model['network'], champs_model['class_names'], champs_model['class_colors'] = darknet.load_network(
         champs_model_files['config'],
         champs_model_files['data'],
-        champs_model_files['weights'],
-        batch_size=1
+        champs_model_files['weights']
     )
 
     rounds_model['network'], rounds_model['class_names'], rounds_model['class_colors'] = darknet.load_network(
         rounds_model_files['config'],
         rounds_model_files['data'],
-        rounds_model_files['weights'],
-        batch_size=1
+        rounds_model_files['weights']
     )
 
     counter_model['network'], counter_model['class_names'], counter_model['class_colors'] = darknet.load_network(
@@ -60,49 +55,25 @@ def vid_detecion_feed(video_path, player, place_ended, date, region):
         'frames': [],
         'hasChampionCounter': []
     }
-    round_number = 0
+    
     while cap.isOpened():
         for x in range(16):
             ret, frame = cap.read()
         if not ret:
             break
         _, frame_to_web = cv2.imencode('.JPEG', frame)
-        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        frame_resized = cv2.resize(frame_rgb, (darknet_width, darknet_height), interpolation=cv2.INTER_LINEAR)
-        img_for_detect = darknet.make_image(darknet_width, darknet_height, 3)
-        darknet.copy_image_from_bytes(img_for_detect, frame_resized.tobytes())
         if len(last_5_frames['frames']) == 5:
             last_5_frames['frames'].pop(0)
             last_5_frames['hasChampionCounter'].pop(0)
-        last_5_frames['frames'].append(img_for_detect)
-        detection_rounds = darknet.detect_image(rounds_model['network'], rounds_model['class_names'], img_for_detect, thresh)
-        #detection_counter = darknet.detect_image(counter_model['network'], counter_model['class_names'], img_for_detect, thresh)
-        detections_adjusted = []
-        hasChampionCounter = False
-        for label, confidence, bbox in detection_rounds:
-            bbox_adjusted = convert2original(frame, bbox)
-            #print(str(label), bbox)
-            if 'Champions Counter' in str(label):
-                hasChampionCounter = True
-            detections_adjusted.append((str(label), confidence, bbox_adjusted))
-        #print('\n')
-        last_5_frames['hasChampionCounter'].append(hasChampionCounter)
-        print(last_5_frames['hasChampionCounter'],'\n')
-        if last_5_frames['hasChampionCounter'] == [1,1,0,0,0]:
-            round_number += 1
-            img_for_detect_champs = last_5_frames['frames'][0]
-            detection_champs = darknet.detect_image(champs_model['network'], champs_model['class_names'], img_for_detect_champs, thresh)
-            detections_adjusted_champs = []
-            for label_champs, confidence_champs, bbox_champs in detection_champs:
-                if 0.35 < (bbox_champs[1]/darknet_height) < 0.65 and 0.25 < (bbox_champs[0]/darknet_width) < 0.75:
-                    bbox_adjusted_champs = convert2original(frame, bbox_champs)
-                    print(label_champs)
-                    champions[str(label_champs)]['rounds'].append(round_number)
-                    champions[str(label_champs)]['locations'].append(bbox_champs)
-                    detections_adjusted_champs.append((str(label_champs), confidence_champs, bbox_adjusted_champs))
-            image = darknet.draw_boxes(detections_adjusted_champs, frame, champs_model['class_colors'])
-            #_, frame_to_web = cv2.imencode('.JPEG', image)
+        last_5_frames['frames'].append(frame)
 
+        hasChampionCounter = detectCounter(frame, counter_model)
+        last_5_frames['hasChampionCounter'].append(hasChampionCounter)
+        
+        if last_5_frames['hasChampionCounter'] == [1,1,0,0,0]:
+            frame_for_champ_detection = last_5_frames['frames'][0]
+            round = detectRound(frame, rounds_model)
+            detectChamps(frame_for_champ_detection, champs_model, champions, round)
 
         yield (b'--frame\r\n'
                     b'Content-Type: image/jpeg\r\n\r\n' + frame_to_web.tostring() + b'\r\n\r\n')
@@ -164,3 +135,64 @@ def generateChampionsDict(champs_list):
             'locations': []
         }
     return champions
+
+def detectCounter(frame, counter_model):
+    image = prepImageForDetection(frame)
+    detection = darknet.detect_image(counter_model['network'], counter_model['class_names'], image)
+    for label, confidence, bbox in detection:
+        if 'Champions Counter' in str(label):
+            return True
+    return False
+
+def detectRound(frame, rounds_model):
+    cropped_image = frame[0:512, 704:1216]
+    img_for_detection = prepImageForDetection(cropped_image)
+    detection = darknet.detect_image(rounds_model['network'], rounds_model['class_names'], img_for_detection, 0.8)
+    rounds_list = []
+    for label, confidence, bbox in detection:
+        x_center = bbox[0]
+        rounds_list.append((str(label), x_center))
+    rounds_list.sort(key=lambda x:x[1])
+    rounds_list = [round[0] for round in rounds_list]
+    return getRoundID(rounds_list)
+
+def detectChamps(frame, champs_model, champions_list, round):
+    image = prepImageForDetection(frame)
+    detection = darknet.detect_image(champs_model['network'], champs_model['class_names'], image, thresh=0.25)
+
+    for label, confidence, bbox in detection:
+        print(str(label), bbox)
+        if 0.35 < (bbox[1] / darknet_height) < 0.65 and 0.25 < (bbox[0] / darknet_width) < 0.75:
+            champions_list[str(label)]['rounds'].append(round)
+            champions_list[str(label)]['locations'].append(bbox)
+
+
+def prepImageForDetection(frame):
+    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    frame_resized = cv2.resize(frame_rgb, (darknet_width, darknet_height), interpolation=cv2.INTER_LINEAR)
+    img_for_detect = darknet.make_image(darknet_width, darknet_height, 3)
+    darknet.copy_image_from_bytes(img_for_detect, frame_resized.tobytes()) 
+    return img_for_detect
+
+def getRoundID(rounds_list):
+    stage = 0
+    round = 0
+    last_round = rounds_list[-1]
+    if 'Minions' in last_round:
+        stage = 1
+    elif 'Krugs' in last_round:
+        stage = 2
+    elif 'Wolves' in last_round:
+        stage = 3
+    elif 'Raptor' in last_round:
+        stage = 4
+    elif 'Drake' in last_round:
+        stage = 5
+    elif 'Herald' in last_round:
+        stage = 6
+    
+    for i in range(len(rounds_list)):
+        if 'active' in rounds_list[i]:
+            round = i + 1
+    
+    return str(stage) + '-' + str(round)

@@ -1,6 +1,5 @@
 import darknet_lib as darknet
 import cv2
-from flask import make_response
 
 config_file="model/yolov4_tft_set5.cfg"
 data_file="model/obj.data"

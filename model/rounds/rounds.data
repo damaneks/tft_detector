@@ -1,6 +1,0 @@
-classes = 25
-train  = data/train_rounds.txt
-test  = data/test_rounds.txt
-valid = data/valid_rounds.txt
-names  = model/rounds/rounds.names
-backup = backup_rounds/
