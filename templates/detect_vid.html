@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+<img src="{{ url_for('video_feed', file_name=file_name, player=player, place_ended=place_ended, date=date,
+region=region) }}">
+{% endblock %}

@@ -1,21 +1,5 @@
 {% extends 'base.html' %}
 {% block content %}
-
-<div class="upload-container">
-    <h2>Please upload your image</h2>
-    <form target="_blank" action='/detect' id="upload-file" method="POST" enctype="multipart/form-data">
-        <div class="form-row">
-            <div class="form-col-75">
-                <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
-            </div>
-            <div class="form-col-25">
-                <input type="submit" value="Upload image">
-            </div>
-        </div>
-    </form>
-</div>
-<br>
-
 <div class="upload-container">
     <h2>Please upload your video</h2>
     <form target="_blank" action='/detect_vid' id="upload-video" method="POST" enctype="multipart/form-data">

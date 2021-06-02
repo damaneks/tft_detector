@@ -1,1 +1,64 @@
-{"games": [{"id": 1, "player": "Vicer", "place_ended": 2, "date": "2021-05-04", "region": "Europe", "champions": [{"name": "Aatrox", "round_count": [4, 2, 0, 4, 1], "location": [0.02, 0.15, 0.7]}, {"name": "Akali", "round_count": [0, 0, 1, 2, 1], "location": [0.0, 0.0, 1.0]}]}, {"id": 2, "player": "sadas", "place_ended": "2", "date": "2021-05-25", "region": "dasd", "champions": {"Aatrox": {"rounds": [], "locations": []}, "Aphelios": {"rounds": [], "locations": []}, "Ashe": {"rounds": [], "locations": []}, "Brand": {"rounds": [], "locations": []}, "Darius": {"rounds": [], "locations": []}, "Diana": {"rounds": [], "locations": []}, "Draven": {"rounds": [], "locations": []}, "Garen": {"rounds": [], "locations": []}, "Gragas": {"rounds": [], "locations": []}, "Hecarim": {"rounds": [], "locations": []}, "Heimerdinger": {"rounds": [], "locations": []}, "Ivern": {"rounds": [], "locations": []}, "Jax": {"rounds": [], "locations": []}, "Kalista": {"rounds": [], "locations": []}, "Karma": {"rounds": [], "locations": []}, "Katarina": {"rounds": [], "locations": []}, "Kayle": {"rounds": [], "locations": []}, "Kennen": {"rounds": [], "locations": []}, "Kha'Zix": {"rounds": [], "locations": []}, "Kindred": {"rounds": [], "locations": []}, "Kled": {"rounds": [], "locations": []}, "Leblanc": {"rounds": ["2-2"], "locations": [[340.4093322753906, 264.2792663574219, 16.113128662109375, 41.39916229248047]]}, "Lee Sin": {"rounds": [], "locations": []}, "Leona": {"rounds": [], "locations": []}, "Lissandra": {"rounds": ["2-2"], "locations": [[139.93800354003906, 254.12059020996094, 27.79143714904785, 79.56841278076172]]}, "Lulu": {"rounds": [], "locations": []}, "Lux": {"rounds": [], "locations": []}, "Mordekaiser": {"rounds": [], "locations": []}, "Morgana": {"rounds": [], "locations": []}, "Nautilus": {"rounds": [], "locations": []}, "Nidalee": {"rounds": [], "locations": []}, "Nocturne": {"rounds": [], "locations": []}, "Nunu": {"rounds": [], "locations": []}, "Pantheon": {"rounds": [], "locations": []}, "Poppy": {"rounds": [], "locations": []}, "Rell": {"rounds": [], "locations": []}, "Riven": {"rounds": [], "locations": []}, "Ryze": {"rounds": [], "locations": []}, "Sejuani": {"rounds": [], "locations": []}, "Sett": {"rounds": [], "locations": []}, "Soraka": {"rounds": [], "locations": []}, "Syndra": {"rounds": [], "locations": []}, "Taric": {"rounds": [], "locations": []}, "Teemo": {"rounds": [], "locations": []}, "Thresh": {"rounds": [], "locations": []}, "Trundle": {"rounds": [], "locations": []}, "Udyr": {"rounds": [], "locations": []}, "Varus": {"rounds": [], "locations": []}, "Vayne": {"rounds": [], "locations": []}, "Vel'Koz": {"rounds": [], "locations": []}, "Viego": {"rounds": [], "locations": []}, "Viktor": {"rounds": [], "locations": []}, "Vladimir": {"rounds": [], "locations": []}, "Volibear": {"rounds": [], "locations": []}, "Warwick": {"rounds": [], "locations": []}, "Yasuo": {"rounds": [], "locations": []}, "Ziggs": {"rounds": [], "locations": []}, "Zyra": {"rounds": [], "locations": []}}}, {"id": 3, "player": "sadas", "place_ended": "2", "date": "2021-05-25", "region": "dasd", "champions": {"Aatrox": {"rounds": [], "locations": []}, "Aphelios": {"rounds": [], "locations": []}, "Ashe": {"rounds": [], "locations": []}, "Brand": {"rounds": [], "locations": []}, "Darius": {"rounds": [], "locations": []}, "Diana": {"rounds": [], "locations": []}, "Draven": {"rounds": [], "locations": []}, "Garen": {"rounds": [], "locations": []}, "Gragas": {"rounds": [], "locations": []}, "Hecarim": {"rounds": [], "locations": []}, "Heimerdinger": {"rounds": [], "locations": []}, "Ivern": {"rounds": [], "locations": []}, "Jax": {"rounds": [], "locations": []}, "Kalista": {"rounds": [], "locations": []}, "Karma": {"rounds": [], "locations": []}, "Katarina": {"rounds": [], "locations": []}, "Kayle": {"rounds": [], "locations": []}, "Kennen": {"rounds": [], "locations": []}, "Kha'Zix": {"rounds": [], "locations": []}, "Kindred": {"rounds": [], "locations": []}, "Kled": {"rounds": [], "locations": []}, "Leblanc": {"rounds": ["2-2"], "locations": [[340.4093322753906, 264.2792663574219, 16.113128662109375, 41.39916229248047]]}, "Lee Sin": {"rounds": [], "locations": []}, "Leona": {"rounds": [], "locations": []}, "Lissandra": {"rounds": ["2-2"], "locations": [[139.93800354003906, 254.12059020996094, 27.79143714904785, 79.56841278076172]]}, "Lulu": {"rounds": [], "locations": []}, "Lux": {"rounds": [], "locations": []}, "Mordekaiser": {"rounds": [], "locations": []}, "Morgana": {"rounds": [], "locations": []}, "Nautilus": {"rounds": [], "locations": []}, "Nidalee": {"rounds": [], "locations": []}, "Nocturne": {"rounds": [], "locations": []}, "Nunu": {"rounds": [], "locations": []}, "Pantheon": {"rounds": [], "locations": []}, "Poppy": {"rounds": [], "locations": []}, "Rell": {"rounds": [], "locations": []}, "Riven": {"rounds": [], "locations": []}, "Ryze": {"rounds": [], "locations": []}, "Sejuani": {"rounds": [], "locations": []}, "Sett": {"rounds": [], "locations": []}, "Soraka": {"rounds": [], "locations": []}, "Syndra": {"rounds": [], "locations": []}, "Taric": {"rounds": [], "locations": []}, "Teemo": {"rounds": [], "locations": []}, "Thresh": {"rounds": [], "locations": []}, "Trundle": {"rounds": [], "locations": []}, "Udyr": {"rounds": [], "locations": []}, "Varus": {"rounds": [], "locations": []}, "Vayne": {"rounds": [], "locations": []}, "Vel'Koz": {"rounds": [], "locations": []}, "Viego": {"rounds": [], "locations": []}, "Viktor": {"rounds": [], "locations": []}, "Vladimir": {"rounds": [], "locations": []}, "Volibear": {"rounds": [], "locations": []}, "Warwick": {"rounds": [], "locations": []}, "Yasuo": {"rounds": [], "locations": []}, "Ziggs": {"rounds": [], "locations": []}, "Zyra": {"rounds": [], "locations": []}}}, {"id": 4, "player": "sadas", "place_ended": "2", "date": "2021-05-25", "region": "dasd", "champions": {"Aatrox": {"rounds": [], "locations": []}, "Aphelios": {"rounds": [], "locations": []}, "Ashe": {"rounds": [], "locations": []}, "Brand": {"rounds": [], "locations": []}, "Darius": {"rounds": [], "locations": []}, "Diana": {"rounds": [], "locations": []}, "Draven": {"rounds": [], "locations": []}, "Garen": {"rounds": [], "locations": []}, "Gragas": {"rounds": [], "locations": []}, "Hecarim": {"rounds": [], "locations": []}, "Heimerdinger": {"rounds": [], "locations": []}, "Ivern": {"rounds": [], "locations": []}, "Jax": {"rounds": [], "locations": []}, "Kalista": {"rounds": [], "locations": []}, "Karma": {"rounds": [], "locations": []}, "Katarina": {"rounds": [], "locations": []}, "Kayle": {"rounds": [], "locations": []}, "Kennen": {"rounds": [], "locations": []}, "Kha'Zix": {"rounds": [], "locations": []}, "Kindred": {"rounds": [], "locations": []}, "Kled": {"rounds": [], "locations": []}, "Leblanc": {"rounds": ["2-2"], "locations": [[340.3947448730469, 264.84375, 16.905731201171875, 44.23499298095703]]}, "Lee Sin": {"rounds": [], "locations": []}, "Leona": {"rounds": [], "locations": []}, "Lissandra": {"rounds": ["2-2"], "locations": [[140.51463317871094, 254.2042694091797, 26.67549705505371, 78.66151428222656]]}, "Lulu": {"rounds": [], "locations": []}, "Lux": {"rounds": [], "locations": []}, "Mordekaiser": {"rounds": [], "locations": []}, "Morgana": {"rounds": [], "locations": []}, "Nautilus": {"rounds": ["2-2"], "locations": [[240.49769592285156, 183.48861694335938, 33.70945739746094, 84.16986846923828]]}, "Nidalee": {"rounds": [], "locations": []}, "Nocturne": {"rounds": [], "locations": []}, "Nunu": {"rounds": [], "locations": []}, "Pantheon": {"rounds": [], "locations": []}, "Poppy": {"rounds": [], "locations": []}, "Rell": {"rounds": [], "locations": []}, "Riven": {"rounds": [], "locations": []}, "Ryze": {"rounds": [], "locations": []}, "Sejuani": {"rounds": [], "locations": []}, "Sett": {"rounds": [], "locations": []}, "Soraka": {"rounds": [], "locations": []}, "Syndra": {"rounds": [], "locations": []}, "Taric": {"rounds": [], "locations": []}, "Teemo": {"rounds": [], "locations": []}, "Thresh": {"rounds": ["2-2"], "locations": [[260.3646545410156, 231.89431762695312, 26.423921585083008, 81.20155334472656]]}, "Trundle": {"rounds": [], "locations": []}, "Udyr": {"rounds": [], "locations": []}, "Varus": {"rounds": [], "locations": []}, "Vayne": {"rounds": [], "locations": []}, "Vel'Koz": {"rounds": [], "locations": []}, "Viego": {"rounds": [], "locations": []}, "Viktor": {"rounds": [], "locations": []}, "Vladimir": {"rounds": [], "locations": []}, "Volibear": {"rounds": [], "locations": []}, "Warwick": {"rounds": [], "locations": []}, "Yasuo": {"rounds": [], "locations": []}, "Ziggs": {"rounds": [], "locations": []}, "Zyra": {"rounds": [], "locations": []}}}]}
+{
+  "games": [
+    {
+      "id": 1,
+      "player": "sadas",
+      "place_ended": "2",
+      "date": "2021-06-02",
+      "region": "Europe",
+      "rounds": {
+        "2-2": {
+          "1-4": "Nautilus",
+          "2-4": "Thresh",
+          "3-1": "Lissandra",
+          "3-7": "Leblanc"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "player": "sadas",
+      "place_ended": "2",
+      "date": "2021-06-02",
+      "region": "Europe",
+      "rounds": {
+        "2-2": {
+          "1-4": "Nautilus",
+          "2-4": "Thresh",
+          "3-1": "Lissandra",
+          "3-7": "Leblanc"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "player": "sadas",
+      "place_ended": "2",
+      "date": "2021-06-02",
+      "region": "Europe",
+      "rounds": {
+        "2-2": {
+          "1-4": "Nautilus",
+          "2-4": "Thresh",
+          "3-1": "Lissandra",
+          "3-7": "Leblanc"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "player": "sadas",
+      "place_ended": "2",
+      "date": "2021-06-02",
+      "region": "Europe",
+      "rounds": {
+        "2-2": {
+          "1-4": "Nautilus",
+          "2-4": "Thresh",
+          "3-1": "Lissandra",
+          "3-7": "Leblanc"
+        }
+      }
+    }
+  ]
+}
