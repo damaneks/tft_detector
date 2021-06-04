@@ -892,6 +892,201 @@
           "3-7": "Leblanc"
         }
       }
+    },
+    {
+      "id": 9,
+      "player": "Zbrojson",
+      "place_ended": "2",
+      "date": "2021-05-27",
+      "region": "Europe",
+      "rounds": {
+        "1-3": {
+          "1-5": "Kled",
+          "1-3": "Kled"
+        },
+        "2-1": {
+          "4-2": "Ziggs",
+          "4-1": "Ziggs",
+          "1-3": "Kled",
+          "3-3": "Kled"
+        },
+        "2-2": {
+          "3-3": "Ziggs",
+          "3-2": "Brand",
+          "1-3": "Kled"
+        },
+        "2-3": {
+          "4-2": "Ziggs",
+          "1-2": "Kled",
+          "1-4": "Kled",
+          "4-1": "Brand"
+        },
+        "2-5": {
+          "4-6": "Kalista",
+          "3-7": "Ziggs",
+          "4-7": "Brand"
+        },
+        "2-6": {
+          "3-7": "Ziggs",
+          "1-5": "Nunu",
+          "4-6": "Kalista",
+          "4-7": "Brand"
+        },
+        "3-1": {
+          "4-6": "Kalista",
+          "1-5": "Nunu",
+          "1-7": "Gragas",
+          "4-7": "Brand",
+          "3-7": "Ziggs"
+        },
+        "3-2": {
+          "1-5": "Nunu",
+          "1-7": "Gragas"
+        },
+        "3-3": {
+          "4-7": "Kalista",
+          "3-7": "Ryze",
+          "1-5": "Nunu",
+          "4-1": "Zyra",
+          "4-5": "Riven",
+          "1-7": "Gragas",
+          "4-6": "Brand"
+        },
+        "3-5": {
+          "3-7": "Ryze",
+          "1-5": "Nunu",
+          "4-6": "Brand",
+          "4-5": "Riven",
+          "4-1": "Zyra",
+          "4-7": "Kalista",
+          "1-7": "Gragas"
+        },
+        "3-7": {
+          "3-7": "Ryze",
+          "4-7": "Kalista",
+          "4-1": "Zyra",
+          "4-5": "Riven",
+          "4-6": "Brand",
+          "1-5": "Nunu",
+          "1-7": "Gragas"
+        },
+        "4-1": {
+          "4-6": "Brand",
+          "4-7": "Kalista",
+          "1-5": "Nunu",
+          "4-1": "Zyra",
+          "1-7": "Gragas",
+          "3-7": "Ryze",
+          "4-5": "Riven"
+        },
+        "4-2": {
+          "4-5": "Riven",
+          "1-5": "Nunu",
+          "4-1": "Zyra",
+          "4-6": "Brand",
+          "1-7": "Gragas",
+          "3-6": "Ryze",
+          "4-7": "Kalista"
+        },
+        "4-3": {
+          "4-6": "Brand",
+          "2-4": "Nunu",
+          "4-5": "Kalista",
+          "4-7": "Zyra",
+          "1-7": "Gragas",
+          "3-6": "Kindred",
+          "3-7": "Riven"
+        },
+        "4-7": {
+          "4-4": "Ryze",
+          "3-7": "Riven",
+          "4-7": "Zyra",
+          "1-7": "Gragas",
+          "4-6": "Brand",
+          "3-6": "Kindred",
+          "2-4": "Nunu",
+          "4-5": "Kalista"
+        },
+        "5-1": {
+          "1-7": "Gragas",
+          "4-6": "Karma",
+          "4-7": "Ivern",
+          "2-4": "Garen",
+          "3-6": "Kindred",
+          "4-1": "Soraka"
+        },
+        "5-2": {
+          "4-5": "Heimerdinger",
+          "3-6": "Kindred",
+          "3-7": "Kindred",
+          "2-6": "Gragas",
+          "4-1": "Soraka",
+          "1-4": "Garen",
+          "4-6": "Karma",
+          "4-7": "Ivern"
+        },
+        "5-3": {
+          "3-6": "Kindred",
+          "4-6": "Kindred",
+          "2-6": "Morgana",
+          "2-7": "Gragas",
+          "4-4": "Ivern",
+          "2-4": "Garen",
+          "3-5": "Ryze",
+          "4-5": "Soraka"
+        },
+        "5-5": {
+          "2-6": "Gragas",
+          "3-5": "Kindred",
+          "4-5": "Karma",
+          "4-6": "Heimerdinger",
+          "4-4": "Ivern",
+          "2-2": "Garen"
+        },
+        "5-6": {
+          "3-5": "Ryze",
+          "1-4": "Garen",
+          "3-6": "Kindred",
+          "4-6": "Karma",
+          "2-7": "Gragas",
+          "4-5": "Soraka",
+          "4-4": "Ivern"
+        },
+        "6-1": {
+          "4-6": "Karma",
+          "2-5": "Karma",
+          "3-7": "Kindred",
+          "4-7": "Heimerdinger",
+          "2-4": "Garen",
+          "4-4": "Ivern"
+        },
+        "6-3": {
+          "4-4": "Soraka",
+          "4-6": "Karma",
+          "3-7": "Karma",
+          "3-4": "Garen",
+          "3-5": "Ivern",
+          "4-7": "Heimerdinger"
+        },
+        "6-5": {
+          "2-5": "Garen",
+          "4-5": "Kindred",
+          "3-7": "Kindred",
+          "2-7": "Gragas",
+          "4-6": "Karma",
+          "4-7": "Heimerdinger",
+          "3-5": "Morgana"
+        },
+        "7-1": {
+          "2-7": "Garen",
+          "3-7": "Heimerdinger",
+          "3-6": "Lulu",
+          "4-6": "Karma",
+          "4-4": "Kindred",
+          "3-5": "Morgana",
+          "4-1": "Taric"
+        }
+      }
     }
   ]
 }
