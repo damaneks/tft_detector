@@ -97,8 +97,24 @@ def vid_detecion_feed(video_path, player, place_ended, date, region):
 
     cap.release()
     os.remove(video_path)
+    locations_file = readJSONfile('locations.json')
+    locations_file = generateLocationsDict(champs_model['class_names'])
+    saveJSONfile(locations_file, 'locations.json')
+    #updateLocationsJSON(rounds, locations_file)
 
-    data = readJSONfile()
+    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'regions/europe.json')
+    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'regions/asia.json')
+    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'regions/america.json')
+    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'players/zbrojson.json')
+    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'players/bebe872.json')
+    for champ in champs_model['class_names']:
+        champ = champ.lower()
+        champ = ''.join(champ.split(" "))
+        champ = ''.join(champ.split("'"))
+        saveJSONfile(generatePopularityDictForChamp(), 'champions/' + champ + '.json')
+
+    #updatePopularityJSON(rounds, region, player)
+    data = readJSONfile('detections.json')
     data['games'].append({
         'id': len(data['games']) + 1,
         'player': player,
@@ -107,7 +123,8 @@ def vid_detecion_feed(video_path, player, place_ended, date, region):
         'region': region,
         'rounds': rounds
     })
-    saveJSONfile(data)
+    saveJSONfile(data, 'detections.json')
+    print('END')
 
 def genTrackBar(detectedRound, championsInRound, progress):
     trackBar = np.zeros((600,512,3), np.uint8)
@@ -154,12 +171,12 @@ def str2int(video_path):
     except ValueError:
         return video_path
 
-def readJSONfile():
-    with open(detections_dir + 'detections.json') as json_file:
+def readJSONfile(file_name):
+    with open(detections_dir + file_name) as json_file:
         return json.load(json_file)
 
-def saveJSONfile(data):
-    with open(detections_dir + 'detections.json', 'w') as outfile:
+def saveJSONfile(data, file_name):
+    with open(detections_dir + file_name, 'w') as outfile:
         json.dump(data, outfile, indent=2)
 
 def generateChampionsDict(champs_list):
@@ -170,6 +187,97 @@ def generateChampionsDict(champs_list):
             'locations': []
         }
     return champions
+
+def generateLocationsDict(champs_list):
+    locationsDict = {}
+    locationsDict['global'] = [{}, {}, {}, {}]
+    for row in range(4):
+        locationsDict['global'][row]['row'] = row + 1
+        for column in range(1, 8):
+            locationsDict['global'][row]['column' + str(column)] = 0
+    for champ in champs_list:
+        locationsDict[champ] = [{}, {}, {}, {}]
+        for row in range(4):
+            locationsDict[champ][row]['row'] = row + 1
+            for column in range(1, 8):
+                locationsDict[champ][row]['column' + str(column)] = 0
+    return locationsDict
+
+def generatePopularityDict(champs_list):
+    popularityDict = {}
+    for champ in champs_list:
+        champ = champ.lower()
+        champ = ''.join(champ.split(" "))
+        champ = ''.join(champ.split("'"))
+        popularityDict[champ] = {}
+        popularityDict[champ]['id'] = champ
+        popularityDict[champ]['data'] = []
+        for stage in range(1, 8):
+            for round in range(1, 7):
+                if round != 4:
+                    popularityDict[champ]['data'].append({
+                        'x': str(stage) + '-' + str(round),
+                        'y': 0
+                    })
+    return popularityDict
+
+def generatePopularityDictForChamp():
+    popularityDict = {}
+    regions = ['Europe', 'Asia', 'America']
+    players = ['Zbrojson', 'Laellana','KC_Double61','bebe872', 'Kiyoon', 'pockygom', 'NoobOwl', 'default']
+    regionsAndPlayers = regions + players
+    for playerOrRegion in regionsAndPlayers:
+        popularityDict[playerOrRegion] = {}
+        popularityDict[playerOrRegion]['id'] = playerOrRegion
+        popularityDict[playerOrRegion]['data'] = []
+        for stage in range(1, 8):
+            for round in range(1, 7):
+                if round != 4:
+                    popularityDict[playerOrRegion]['data'].append({
+                        'x': str(stage) + '-' + str(round),
+                        'y': 0
+                    })
+    return popularityDict
+
+
+def updateLocationsJSON(roundsDict, locationsDict):
+    for round in roundsDict:
+        for locationTile in roundsDict[round]:
+            champion = roundsDict[round][locationTile]
+            row = locationTile.split('-')[0]
+            column = locationTile.split('-')[1]
+            if locationsDict['global'][int(row) - 1]['column' + str(column)] > 0:
+                locationsDict['global'][int(row) - 1]['column' + str(column)] = locationsDict['global'][int(row) - 1]['column' + str(column)] + 1
+            else:
+                locationsDict['global'][int(row) - 1]['column' + str(column)] = 1
+            if locationsDict[champion][int(row) - 1]['column' + str(column)] > 0:
+                locationsDict[champion][int(row) - 1]['column' + str(column)] = locationsDict[champion][int(row) - 1]['column' + str(column)] + 1
+            else:
+                locationsDict[champion][int(row) - 1]['column' + str(column)] = 1
+        
+    saveJSONfile(locationsDict, 'locations.json')
+
+def updatePopularityJSON(roundsDict, region, player):
+    regionDict = readJSONfile('regions/' + region.lower() + '.json')
+    playerDict = readJSONfile('players/' + player.lower() + '.json')
+    
+    for round in roundsDict:
+        for locationTile in roundsDict[round]:
+            champion = roundsDict[round][locationTile]
+            champion = champion.lower()
+            champion = ''.join(champion.split(" "))
+            champion = ''.join(champion.split("'"))
+            stageNumber = int(round.split('-')[0])
+            roundNumber = int(round.split('-')[1])
+            roundIndex = 5 * (stageNumber - 1) + (roundNumber - 1)
+            regionDict[champion]['data'][roundIndex]['y'] = regionDict[champion]['data'][roundIndex]['y'] + 1
+            playerDict[champion]['data'][roundIndex]['y'] = playerDict[champion]['data'][roundIndex]['y'] + 1
+            championDict = readJSONfile('champions/' + champion + '.json')
+            championDict[region]['data'][roundIndex]['y'] = championDict[region]['data'][roundIndex]['y'] + 1
+            championDict[player]['data'][roundIndex]['y'] = championDict[player]['data'][roundIndex]['y'] + 1
+            saveJSONfile(championDict, 'champions/' + champion + '.json')
+    saveJSONfile(regionDict, 'regions/' + region.lower() + '.json')
+    saveJSONfile(playerDict, 'players/' + player.lower() + '.json')
 
 def detectCounter(frame, counter_model):
     image = prepImageForDetection(frame)
@@ -267,13 +375,13 @@ def getRoundID(rounds_list, last_round_detected):
 
     if 'Box active' in rounds_list:
         round = 2
-    elif 'active' in rounds_list[-1]:
-        round = 7
     elif 'Minions active' in rounds_list:
         round = 2
         for round_name in rounds_list:
             if 'Minions won' in round_name or 'Minions lost' in round_name:
                 round = round + 1
+    elif 'active' in rounds_list[-1]:
+        round = 7
     elif 'PVP active' in rounds_list:
         if stage < 5:
             round = 1

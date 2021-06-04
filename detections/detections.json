@@ -2,54 +2,9 @@
   "games": [
     {
       "id": 1,
-      "player": "sadas",
+      "player": "Zbrojson",
       "place_ended": "2",
-      "date": "2021-06-02",
-      "region": "Europe",
-      "rounds": {
-        "2-2": {
-          "1-4": "Nautilus",
-          "2-4": "Thresh",
-          "3-1": "Lissandra",
-          "3-7": "Leblanc"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "player": "sadas",
-      "place_ended": "2",
-      "date": "2021-06-02",
-      "region": "Europe",
-      "rounds": {
-        "2-2": {
-          "1-4": "Nautilus",
-          "2-4": "Thresh",
-          "3-1": "Lissandra",
-          "3-7": "Leblanc"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "player": "sadas",
-      "place_ended": "2",
-      "date": "2021-06-02",
-      "region": "Europe",
-      "rounds": {
-        "2-2": {
-          "1-4": "Nautilus",
-          "2-4": "Thresh",
-          "3-1": "Lissandra",
-          "3-7": "Leblanc"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "player": "sadas",
-      "place_ended": "2",
-      "date": "2021-06-02",
+      "date": "2021-06-04",
       "region": "Europe",
       "rounds": {
         "2-2": {
