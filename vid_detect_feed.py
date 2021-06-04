@@ -97,19 +97,20 @@ def vid_detecion_feed(video_path, player, place_ended, date, region):
 
     cap.release()
     os.remove(video_path)
-    locations_file = readJSONfile('locations.json')
+    #locations_file = readJSONfile('locations.json')
     #locations_file = generateLocationsDict(champs_model['class_names'])
     #saveJSONfile(locations_file, 'locations.json')
-    updateLocationsJSON(rounds, locations_file)
+    #updateLocationsJSON(rounds, locations_file)
 
-    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'regions/europe.json')
+    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'popularity.json')
+
     # for champ in champs_model['class_names']:
     #     champ = champ.lower()
     #     champ = ''.join(champ.split(" "))
     #     champ = ''.join(champ.split("'"))
     #     saveJSONfile(generatePopularityDictForChamp(), 'champions/' + champ + '.json')
 
-    updatePopularityJSON(rounds, region, player)
+    #updatePopularityJSON(rounds, region, player)
     data = readJSONfile('detections.json')
     data['games'].append({
         'id': len(data['games']) + 1,
@@ -211,7 +212,7 @@ def generatePopularityDict(champs_list):
         popularityDict[champ] = {}
         popularityDict[champ]['id'] = champ
         popularityDict[champ]['data'] = []
-        for stage in range(1, 8):
+        for stage in range(2, 8):
             for round in range(1, 7):
                 if round != 4:
                     popularityDict[champ]['data'].append({
@@ -229,7 +230,7 @@ def generatePopularityDictForChamp():
         popularityDict[playerOrRegion] = {}
         popularityDict[playerOrRegion]['id'] = playerOrRegion
         popularityDict[playerOrRegion]['data'] = []
-        for stage in range(1, 8):
+        for stage in range(2, 8):
             for round in range(1, 7):
                 if round != 4:
                     popularityDict[playerOrRegion]['data'].append({
@@ -271,7 +272,9 @@ def updatePopularityJSON(roundsDict, region, player):
             champion = ''.join(champion.split("'"))
             stageNumber = int(round.split('-')[0])
             roundNumber = int(round.split('-')[1])
-            roundIndex = 5 * (stageNumber - 1) + (roundNumber - 1)
+            roundIndex = 5 * (stageNumber-2) + (roundNumber - 1)
+            print(round)
+            print(roundIndex)
             regionDict[champion]['data'][roundIndex]['y'] = regionDict[champion]['data'][roundIndex]['y'] + 1
             playerDict[champion]['data'][roundIndex]['y'] = playerDict[champion]['data'][roundIndex]['y'] + 1
             popularityDict[champion]['data'][roundIndex]['y'] = popularityDict[champion]['data'][roundIndex]['y'] + 1
