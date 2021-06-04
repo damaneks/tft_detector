@@ -1219,6 +1219,195 @@
           "1-4": "Hecarim"
         }
       }
+    },
+    {
+      "id": 9,
+      "player": "Zbrojson",
+      "place_ended": "1",
+      "date": "2021-05-27",
+      "region": "Europe",
+      "rounds": {
+        "2-1": {
+          "1-3": "Warwick",
+          "4-1": "Kha'Zix",
+          "1-4": "Gragas"
+        },
+        "2-5": {
+          "1-7": "Warwick",
+          "4-1": "Kha'Zix",
+          "4-7": "Soraka",
+          "2-4": "Gragas"
+        },
+        "2-6": {
+          "2-3": "Gragas",
+          "4-4": "Kha'Zix",
+          "4-1": "Soraka",
+          "1-2": "Warwick"
+        },
+        "2-7": {
+          "2-6": "Gragas",
+          "1-6": "Warwick",
+          "4-7": "Soraka",
+          "3-7": "Kha'Zix"
+        },
+        "3-1": {
+          "1-7": "Gragas",
+          "1-5": "Warwick",
+          "4-7": "Soraka",
+          "4-1": "Kha'Zix",
+          "3-7": "Lissandra"
+        },
+        "3-2": {
+          "4-2": "Karma",
+          "3-1": "Lissandra",
+          "4-7": "Kha'Zix",
+          "2-2": "Gragas",
+          "1-4": "Warwick"
+        },
+        "3-3": {
+          "4-2": "Karma",
+          "4-7": "Kha'Zix",
+          "1-4": "Warwick",
+          "1-2": "Gragas",
+          "3-1": "Lissandra",
+          "4-1": "Soraka"
+        },
+        "3-5": {
+          "4-7": "Kha'Zix",
+          "1-2": "Warwick",
+          "1-3": "Sett",
+          "2-4": "Gragas",
+          "1-6": "Nunu",
+          "4-1": "Soraka",
+          "3-1": "Lissandra"
+        },
+        "3-6": {
+          "1-1": "Nunu",
+          "3-1": "Lissandra",
+          "1-7": "Sett",
+          "4-1": "Soraka",
+          "1-5": "Warwick",
+          "4-7": "Kha'Zix"
+        },
+        "4-2": {
+          "3-1": "Karma",
+          "1-7": "Sett",
+          "4-2": "Sett",
+          "2-5": "Warwick",
+          "1-3": "Gragas",
+          "2-1": "Nunu",
+          "4-1": "Soraka"
+        },
+        "4-3": {
+          "2-2": "Riven",
+          "3-1": "Karma",
+          "4-1": "Soraka",
+          "1-7": "Sett",
+          "1-5": "Warwick",
+          "4-2": "Ivern"
+        },
+        "4-5": {
+          "4-6": "Karma",
+          "2-5": "Warwick",
+          "4-2": "Kha'Zix",
+          "4-7": "Soraka"
+        },
+        "4-7": {
+          "4-2": "Soraka",
+          "4-5": "Soraka",
+          "2-2": "Riven",
+          "3-1": "Ivern",
+          "1-3": "Garen",
+          "1-6": "Gragas"
+        },
+        "5-1": {
+          "3-1": "Lee Sin",
+          "1-6": "Volibear",
+          "4-3": "Soraka",
+          "4-2": "Soraka",
+          "2-2": "Riven"
+        },
+        "5-2": {
+          "4-6": "Soraka",
+          "1-2": "Gragas",
+          "2-4": "Garen",
+          "4-3": "Ivern",
+          "4-5": "Karma"
+        },
+        "5-3": {
+          "1-2": "Garen",
+          "3-7": "Ivern",
+          "2-4": "Ivern",
+          "4-5": "Karma",
+          "4-7": "Karma",
+          "4-6": "Soraka",
+          "2-3": "Gragas"
+        },
+        "5-5": {
+          "1-5": "Volibear",
+          "1-2": "Gragas",
+          "1-4": "Garen",
+          "3-7": "Ivern",
+          "4-2": "Soraka",
+          "4-7": "Karma",
+          "4-6": "Karma"
+        },
+        "5-6": {
+          "2-1": "Riven",
+          "3-1": "Riven",
+          "1-5": "Volibear",
+          "4-1": "Karma",
+          "2-2": "Garen",
+          "4-2": "Soraka"
+        },
+        "6-1": {
+          "4-7": "Karma",
+          "2-4": "Karma",
+          "2-2": "Gragas",
+          "1-7": "Ivern",
+          "4-6": "Soraka",
+          "1-6": "Volibear"
+        },
+        "6-2": {
+          "4-3": "Nidalee",
+          "2-4": "Karma",
+          "4-1": "Karma",
+          "4-2": "Soraka",
+          "1-2": "Gragas",
+          "1-4": "Garen"
+        },
+        "6-3": {
+          "2-6": "Lux",
+          "4-2": "Soraka",
+          "4-5": "Nidalee",
+          "2-4": "Garen",
+          "1-2": "Gragas",
+          "1-3": "Ivern",
+          "4-1": "Karma"
+        },
+        "6-5": {
+          "4-5": "Nidalee",
+          "4-7": "Karma",
+          "4-6": "Soraka",
+          "1-4": "Garen",
+          "1-2": "Gragas",
+          "1-3": "Ivern"
+        },
+        "6-6": {
+          "4-3": "Nidalee",
+          "1-4": "Garen",
+          "2-6": "Lux",
+          "3-2": "Ivern"
+        },
+        "7-1": {
+          "4-7": "Karma",
+          "3-2": "Ivern",
+          "2-4": "Garen",
+          "1-6": "Lee Sin",
+          "4-5": "Soraka",
+          "3-1": "Gragas"
+        }
+      }
     }
   ]
 }
