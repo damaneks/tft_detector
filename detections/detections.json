@@ -590,6 +590,167 @@
           "4-7": "Teemo"
         }
       }
+    },
+    {
+      "id": 4,
+      "player": "Zbrojson",
+      "place_ended": "6",
+      "date": "2021-05-27",
+      "region": "Europe",
+      "rounds": {
+        "1-2": {
+          "1-3": "Warwick",
+          "1-4": "Warwick"
+        },
+        "2-1": {
+          "3-2": "Viktor",
+          "1-4": "Gragas",
+          "1-3": "Thresh",
+          "1-2": "Warwick"
+        },
+        "2-2": {
+          "1-7": "Warwick",
+          "2-4": "Warwick",
+          "1-6": "Thresh",
+          "4-7": "Viktor",
+          "1-4": "Gragas"
+        },
+        "2-3": {
+          "1-1": "Warwick",
+          "2-4": "Gragas",
+          "4-1": "Viktor",
+          "1-2": "Thresh"
+        },
+        "2-5": {
+          "4-3": "Sett",
+          "4-2": "Gragas",
+          "4-1": "Warwick"
+        },
+        "2-6": {
+          "2-5": "Thresh",
+          "1-7": "Warwick",
+          "1-4": "Gragas",
+          "1-5": "Hecarim",
+          "4-7": "Viktor"
+        },
+        "2-7": {
+          "1-6": "Thresh",
+          "1-7": "Warwick",
+          "4-6": "Ziggs",
+          "4-7": "Viktor",
+          "1-5": "Gragas"
+        },
+        "3-2": {
+          "4-6": "Ziggs",
+          "1-6": "Thresh",
+          "2-4": "Gragas",
+          "4-7": "Viktor",
+          "2-6": "Warwick"
+        },
+        "3-3": {
+          "4-6": "Ziggs",
+          "2-5": "Thresh",
+          "1-5": "Gragas",
+          "2-6": "Warwick",
+          "3-7": "Leona",
+          "4-7": "Viktor"
+        },
+        "3-5": {
+          "3-6": "Thresh",
+          "3-7": "Warwick",
+          "4-5": "Soraka",
+          "4-7": "Viktor"
+        },
+        "3-6": {
+          "4-6": "Ziggs",
+          "2-4": "Gragas",
+          "3-6": "Thresh",
+          "4-5": "Soraka",
+          "3-7": "Warwick",
+          "4-7": "Viktor"
+        },
+        "3-7": {
+          "3-6": "Thresh",
+          "4-5": "Soraka",
+          "4-7": "Viktor",
+          "3-7": "Warwick",
+          "1-5": "Gragas"
+        },
+        "4-1": {
+          "3-6": "Thresh",
+          "4-3": "Sett",
+          "4-5": "Soraka",
+          "3-7": "Warwick",
+          "4-7": "Viktor",
+          "2-4": "Gragas",
+          "4-6": "Ziggs"
+        },
+        "4-2": {
+          "4-3": "Riven",
+          "4-6": "Brand",
+          "4-7": "Viktor",
+          "3-7": "Warwick"
+        },
+        "4-3": {
+          "4-6": "Brand",
+          "3-7": "Brand",
+          "4-5": "Sett",
+          "1-2": "Nunu",
+          "4-7": "Viktor",
+          "2-4": "Gragas",
+          "1-3": "Warwick"
+        },
+        "4-6": {
+          "3-6": "Riven",
+          "4-6": "Ivern",
+          "1-3": "Warwick",
+          "4-5": "Soraka",
+          "1-7": "Nunu"
+        },
+        "4-7": {
+          "4-4": "Karma",
+          "4-7": "Karma",
+          "2-6": "Taric",
+          "4-5": "Soraka",
+          "4-6": "Ivern"
+        },
+        "5-1": {
+          "4-7": "Heimerdinger",
+          "3-6": "Riven",
+          "4-2": "Diana",
+          "4-5": "Soraka",
+          "4-4": "Ivern",
+          "1-6": "Gragas",
+          "1-4": "Mordekaiser"
+        },
+        "5-2": {
+          "4-7": "Heimerdinger",
+          "4-4": "Ivern",
+          "3-6": "Ryze",
+          "4-6": "Karma",
+          "1-5": "Taric",
+          "4-5": "Soraka",
+          "1-4": "Mordekaiser",
+          "2-7": "Kindred"
+        },
+        "5-5": {
+          "3-7": "Soraka",
+          "4-1": "Teemo",
+          "4-5": "Ivern",
+          "4-6": "Karma",
+          "4-7": "Lux",
+          "1-6": "Taric"
+        },
+        "6-1": {
+          "4-7": "Karma",
+          "4-6": "Karma",
+          "3-2": "Kindred",
+          "1-4": "Mordekaiser",
+          "3-1": "Soraka",
+          "1-2": "Taric",
+          "4-5": "Ivern"
+        }
+      }
     }
   ]
 }
