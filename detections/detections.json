@@ -209,6 +209,167 @@
           "4-1": "Taric"
         }
       }
+    },
+    {
+      "id": 3,
+      "player": "Zbrojson",
+      "place_ended": "2",
+      "date": "2021-05-27",
+      "region": "Europe",
+      "rounds": {
+        "1-3": {
+          "1-4": "Leona",
+          "1-3": "Leona"
+        },
+        "1-4": {
+          "1-4": "Leona",
+          "1-3": "Leona"
+        },
+        "2-1": {
+          "2-2": "Aatrox",
+          "1-3": "Aatrox",
+          "3-2": "Ziggs",
+          "3-4": "Leblanc"
+        },
+        "2-2": {
+          "4-6": "Soraka",
+          "1-4": "Leona",
+          "2-7": "Kha'Zix"
+        },
+        "2-3": {
+          "3-7": "Soraka",
+          "1-4": "Leona"
+        },
+        "2-5": {
+          "1-4": "Leona",
+          "3-4": "Katarina",
+          "2-7": "Kha'Zix",
+          "4-1": "Vayne",
+          "4-7": "Soraka"
+        },
+        "2-6": {
+          "4-1": "Vayne",
+          "1-4": "Leona",
+          "3-4": "Katarina"
+        },
+        "3-1": {
+          "2-7": "Hecarim",
+          "1-6": "Leona",
+          "1-7": "Kha'Zix",
+          "4-5": "Katarina"
+        },
+        "3-2": {
+          "2-3": "Thresh",
+          "2-4": "Gragas",
+          "4-4": "Brand",
+          "3-1": "Kha'Zix",
+          "1-4": "Leona",
+          "4-7": "Vayne"
+        },
+        "3-5": {
+          "3-2": "Vayne",
+          "1-4": "Thresh",
+          "4-4": "Kled",
+          "4-5": "Katarina",
+          "4-7": "Kalista",
+          "4-6": "Kalista",
+          "2-1": "Kha'Zix"
+        },
+        "3-7": {
+          "4-4": "Katarina",
+          "2-4": "Gragas",
+          "4-1": "Vayne",
+          "1-4": "Leona",
+          "2-3": "Thresh",
+          "3-1": "Kha'Zix"
+        },
+        "4-1": {
+          "1-5": "Lee Sin",
+          "1-4": "Riven",
+          "4-5": "Riven"
+        },
+        "4-2": {
+          "4-4": "Katarina",
+          "4-2": "Katarina",
+          "1-3": "Mordekaiser",
+          "1-5": "Lee Sin"
+        },
+        "4-3": {
+          "4-2": "Katarina",
+          "4-1": "Diana",
+          "1-3": "Mordekaiser",
+          "3-7": "Viego"
+        },
+        "4-5": {
+          "4-1": "Draven",
+          "4-6": "Diana",
+          "3-4": "Karma"
+        },
+        "4-6": {
+          "1-1": "Riven",
+          "4-6": "Diana",
+          "1-4": "Mordekaiser",
+          "3-1": "Draven",
+          "1-7": "Lee Sin"
+        },
+        "4-7": {
+          "4-6": "Karma",
+          "3-7": "Draven",
+          "2-5": "Riven",
+          "1-7": "Yasuo",
+          "1-4": "Mordekaiser"
+        },
+        "5-1": {
+          "1-7": "Riven",
+          "1-6": "Riven"
+        },
+        "5-3": {
+          "1-7": "Nautilus",
+          "1-5": "Mordekaiser",
+          "3-6": "Kindred",
+          "2-2": "Diana",
+          "4-2": "Rell"
+        },
+        "5-5": {
+          "1-5": "Mordekaiser",
+          "4-2": "Rell",
+          "4-5": "Nautilus",
+          "3-7": "Brand",
+          "3-1": "Thresh"
+        },
+        "5-6": {
+          "4-2": "Rell",
+          "4-5": "Nautilus",
+          "3-1": "Ryze",
+          "4-1": "Ryze"
+        },
+        "6-1": {
+          "4-5": "Nautilus",
+          "2-2": "Diana",
+          "4-2": "Rell"
+        },
+        "6-2": {
+          "3-7": "Thresh",
+          "4-1": "Lux",
+          "4-5": "Rell",
+          "4-2": "Nautilus"
+        },
+        "6-3": {
+          "3-2": "Kindred",
+          "4-1": "Ryze",
+          "3-1": "Draven",
+          "4-7": "Lux",
+          "4-2": "Nautilus",
+          "4-5": "Rell"
+        },
+        "6-5": {
+          "4-1": "Ryze",
+          "3-1": "Ryze",
+          "4-6": "Rell",
+          "4-7": "Lux",
+          "3-2": "Kindred"
+        }
+      }
     }
   ]
 }
