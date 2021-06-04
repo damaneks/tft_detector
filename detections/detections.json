@@ -1124,6 +1124,101 @@
           "3-6": "Kindred"
         }
       }
+    },
+    {
+      "id": 8,
+      "player": "Zbrojson",
+      "place_ended": "8",
+      "date": "2021-05-27",
+      "region": "Europe",
+      "rounds": {
+        "0-0": {
+          "1-3": "Warwick",
+          "1-4": "Warwick"
+        },
+        "2-1": {
+          "1-7": "Sett",
+          "1-6": "Sett",
+          "2-5": "Warwick"
+        },
+        "2-2": {
+          "1-6": "Sett",
+          "1-7": "Sett"
+        },
+        "2-3": {
+          "1-7": "Sett",
+          "1-5": "Warwick"
+        },
+        "2-5": {
+          "1-5": "Warwick",
+          "1-4": "Warwick",
+          "1-6": "Nunu",
+          "1-7": "Riven"
+        },
+        "2-6": {
+          "1-5": "Sett",
+          "2-5": "Warwick",
+          "2-3": "Gragas",
+          "1-6": "Nunu"
+        },
+        "2-7": {
+          "1-5": "Sett",
+          "1-7": "Nunu",
+          "2-5": "Warwick",
+          "1-4": "Gragas"
+        },
+        "3-2": {
+          "4-7": "Vayne",
+          "1-5": "Sett",
+          "1-7": "Thresh",
+          "1-6": "Warwick",
+          "4-6": "Ashe"
+        },
+        "3-6": {
+          "4-5": "Viktor",
+          "4-6": "Ashe",
+          "1-7": "Warwick"
+        },
+        "4-1": {
+          "4-5": "Viktor",
+          "1-5": "Thresh",
+          "2-6": "Warwick",
+          "1-3": "Hecarim",
+          "4-1": "Katarina"
+        },
+        "4-2": {
+          "4-6": "Viktor",
+          "4-7": "Viktor",
+          "1-5": "Warwick",
+          "1-4": "Hecarim",
+          "1-6": "Thresh"
+        },
+        "4-3": {
+          "4-7": "Viktor",
+          "4-6": "Viktor",
+          "1-5": "Warwick",
+          "1-6": "Thresh",
+          "1-4": "Hecarim"
+        },
+        "4-5": {
+          "1-5": "Warwick",
+          "4-7": "Viktor",
+          "4-6": "Viktor",
+          "2-5": "Thresh",
+          "1-4": "Hecarim"
+        },
+        "4-6": {
+          "1-2": "Thresh",
+          "2-4": "Hecarim",
+          "3-2": "Viktor",
+          "4-3": "Brand"
+        },
+        "5-1": {
+          "4-1": "Vayne",
+          "1-2": "Thresh",
+          "1-4": "Hecarim"
+        }
+      }
     }
   ]
 }
