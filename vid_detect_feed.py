@@ -49,7 +49,7 @@ def vid_detecion_feed(video_path, player, place_ended, date, region):
         counter_model_files['data'],
         counter_model_files['weights']
     )
-    
+
     input_path = str2int(video_path)
     cap = cv2.VideoCapture(input_path)
     rounds = {}
@@ -98,22 +98,18 @@ def vid_detecion_feed(video_path, player, place_ended, date, region):
     cap.release()
     os.remove(video_path)
     locations_file = readJSONfile('locations.json')
-    locations_file = generateLocationsDict(champs_model['class_names'])
-    saveJSONfile(locations_file, 'locations.json')
-    #updateLocationsJSON(rounds, locations_file)
+    #locations_file = generateLocationsDict(champs_model['class_names'])
+    #saveJSONfile(locations_file, 'locations.json')
+    updateLocationsJSON(rounds, locations_file)
 
     saveJSONfile(generatePopularityDict(champs_model['class_names']), 'regions/europe.json')
-    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'regions/asia.json')
-    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'regions/america.json')
-    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'players/zbrojson.json')
-    saveJSONfile(generatePopularityDict(champs_model['class_names']), 'players/bebe872.json')
-    for champ in champs_model['class_names']:
-        champ = champ.lower()
-        champ = ''.join(champ.split(" "))
-        champ = ''.join(champ.split("'"))
-        saveJSONfile(generatePopularityDictForChamp(), 'champions/' + champ + '.json')
+    # for champ in champs_model['class_names']:
+    #     champ = champ.lower()
+    #     champ = ''.join(champ.split(" "))
+    #     champ = ''.join(champ.split("'"))
+    #     saveJSONfile(generatePopularityDictForChamp(), 'champions/' + champ + '.json')
 
-    #updatePopularityJSON(rounds, region, player)
+    updatePopularityJSON(rounds, region, player)
     data = readJSONfile('detections.json')
     data['games'].append({
         'id': len(data['games']) + 1,
@@ -196,6 +192,9 @@ def generateLocationsDict(champs_list):
         for column in range(1, 8):
             locationsDict['global'][row]['column' + str(column)] = 0
     for champ in champs_list:
+        champ = champ.lower()
+        champ = ''.join(champ.split(" "))
+        champ = ''.join(champ.split("'"))
         locationsDict[champ] = [{}, {}, {}, {}]
         for row in range(4):
             locationsDict[champ][row]['row'] = row + 1
@@ -244,6 +243,9 @@ def updateLocationsJSON(roundsDict, locationsDict):
     for round in roundsDict:
         for locationTile in roundsDict[round]:
             champion = roundsDict[round][locationTile]
+            champion = champion.lower()
+            champion = ''.join(champion.split(" "))
+            champion = ''.join(champion.split("'"))
             row = locationTile.split('-')[0]
             column = locationTile.split('-')[1]
             if locationsDict['global'][int(row) - 1]['column' + str(column)] > 0:
@@ -260,7 +262,7 @@ def updateLocationsJSON(roundsDict, locationsDict):
 def updatePopularityJSON(roundsDict, region, player):
     regionDict = readJSONfile('regions/' + region.lower() + '.json')
     playerDict = readJSONfile('players/' + player.lower() + '.json')
-    
+    popularityDict = readJSONfile('popularity.json')
     for round in roundsDict:
         for locationTile in roundsDict[round]:
             champion = roundsDict[round][locationTile]
@@ -272,6 +274,7 @@ def updatePopularityJSON(roundsDict, region, player):
             roundIndex = 5 * (stageNumber - 1) + (roundNumber - 1)
             regionDict[champion]['data'][roundIndex]['y'] = regionDict[champion]['data'][roundIndex]['y'] + 1
             playerDict[champion]['data'][roundIndex]['y'] = playerDict[champion]['data'][roundIndex]['y'] + 1
+            popularityDict[champion]['data'][roundIndex]['y'] = popularityDict[champion]['data'][roundIndex]['y'] + 1
             championDict = readJSONfile('champions/' + champion + '.json')
             championDict[region]['data'][roundIndex]['y'] = championDict[region]['data'][roundIndex]['y'] + 1
             championDict[player]['data'][roundIndex]['y'] = championDict[player]['data'][roundIndex]['y'] + 1

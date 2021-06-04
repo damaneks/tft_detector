@@ -41,7 +41,7 @@
       "column7": 0
     }
   ],
-  "Aatrox": [
+  "aatrox": [
     {
       "row": 1,
       "column1": 0,
@@ -83,7 +83,7 @@
       "column7": 0
     }
   ],
-  "Aphelios": [
+  "aphelios": [
     {
       "row": 1,
       "column1": 0,
@@ -125,7 +125,7 @@
       "column7": 0
     }
   ],
-  "Ashe": [
+  "ashe": [
     {
       "row": 1,
       "column1": 0,
@@ -167,7 +167,7 @@
       "column7": 0
     }
   ],
-  "Brand": [
+  "brand": [
     {
       "row": 1,
       "column1": 0,
@@ -209,7 +209,7 @@
       "column7": 0
     }
   ],
-  "Darius": [
+  "darius": [
     {
       "row": 1,
       "column1": 0,
@@ -251,7 +251,7 @@
       "column7": 0
     }
   ],
-  "Diana": [
+  "diana": [
     {
       "row": 1,
       "column1": 0,
@@ -293,7 +293,7 @@
       "column7": 0
     }
   ],
-  "Draven": [
+  "draven": [
     {
       "row": 1,
       "column1": 0,
@@ -335,7 +335,7 @@
       "column7": 0
     }
   ],
-  "Garen": [
+  "garen": [
     {
       "row": 1,
       "column1": 0,
@@ -377,7 +377,7 @@
       "column7": 0
     }
   ],
-  "Gragas": [
+  "gragas": [
     {
       "row": 1,
       "column1": 0,
@@ -419,7 +419,7 @@
       "column7": 0
     }
   ],
-  "Hecarim": [
+  "hecarim": [
     {
       "row": 1,
       "column1": 0,
@@ -461,7 +461,7 @@
       "column7": 0
     }
   ],
-  "Heimerdinger": [
+  "heimerdinger": [
     {
       "row": 1,
       "column1": 0,
@@ -503,7 +503,7 @@
       "column7": 0
     }
   ],
-  "Ivern": [
+  "ivern": [
     {
       "row": 1,
       "column1": 0,
@@ -545,7 +545,7 @@
       "column7": 0
     }
   ],
-  "Jax": [
+  "jax": [
     {
       "row": 1,
       "column1": 0,
@@ -587,7 +587,7 @@
       "column7": 0
     }
   ],
-  "Kalista": [
+  "kalista": [
     {
       "row": 1,
       "column1": 0,
@@ -629,7 +629,7 @@
       "column7": 0
     }
   ],
-  "Karma": [
+  "karma": [
     {
       "row": 1,
       "column1": 0,
@@ -671,7 +671,7 @@
       "column7": 0
     }
   ],
-  "Katarina": [
+  "katarina": [
     {
       "row": 1,
       "column1": 0,
@@ -713,7 +713,7 @@
       "column7": 0
     }
   ],
-  "Kayle": [
+  "kayle": [
     {
       "row": 1,
       "column1": 0,
@@ -755,7 +755,7 @@
       "column7": 0
     }
   ],
-  "Kennen": [
+  "kennen": [
     {
       "row": 1,
       "column1": 0,
@@ -797,7 +797,7 @@
       "column7": 0
     }
   ],
-  "Kha'Zix": [
+  "khazix": [
     {
       "row": 1,
       "column1": 0,
@@ -839,7 +839,7 @@
       "column7": 0
     }
   ],
-  "Kindred": [
+  "kindred": [
     {
       "row": 1,
       "column1": 0,
@@ -881,7 +881,7 @@
       "column7": 0
     }
   ],
-  "Kled": [
+  "kled": [
     {
       "row": 1,
       "column1": 0,
@@ -923,7 +923,7 @@
       "column7": 0
     }
   ],
-  "Leblanc": [
+  "leblanc": [
     {
       "row": 1,
       "column1": 0,
@@ -965,7 +965,7 @@
       "column7": 0
     }
   ],
-  "Lee Sin": [
+  "leesin": [
     {
       "row": 1,
       "column1": 0,
@@ -1007,7 +1007,7 @@
       "column7": 0
     }
   ],
-  "Leona": [
+  "leona": [
     {
       "row": 1,
       "column1": 0,
@@ -1049,7 +1049,7 @@
       "column7": 0
     }
   ],
-  "Lissandra": [
+  "lissandra": [
     {
       "row": 1,
       "column1": 0,
@@ -1091,7 +1091,7 @@
       "column7": 0
     }
   ],
-  "Lulu": [
+  "lulu": [
     {
       "row": 1,
       "column1": 0,
@@ -1133,7 +1133,7 @@
       "column7": 0
     }
   ],
-  "Lux": [
+  "lux": [
     {
       "row": 1,
       "column1": 0,
@@ -1175,7 +1175,7 @@
       "column7": 0
     }
   ],
-  "Mordekaiser": [
+  "mordekaiser": [
     {
       "row": 1,
       "column1": 0,
@@ -1217,7 +1217,7 @@
       "column7": 0
     }
   ],
-  "Morgana": [
+  "morgana": [
     {
       "row": 1,
       "column1": 0,
@@ -1259,7 +1259,7 @@
       "column7": 0
     }
   ],
-  "Nautilus": [
+  "nautilus": [
     {
       "row": 1,
       "column1": 0,
@@ -1301,7 +1301,7 @@
       "column7": 0
     }
   ],
-  "Nidalee": [
+  "nidalee": [
     {
       "row": 1,
       "column1": 0,
@@ -1343,7 +1343,7 @@
       "column7": 0
     }
   ],
-  "Nocturne": [
+  "nocturne": [
     {
       "row": 1,
       "column1": 0,
@@ -1385,7 +1385,7 @@
       "column7": 0
     }
   ],
-  "Nunu": [
+  "nunu": [
     {
       "row": 1,
       "column1": 0,
@@ -1427,7 +1427,7 @@
       "column7": 0
     }
   ],
-  "Pantheon": [
+  "pantheon": [
     {
       "row": 1,
       "column1": 0,
@@ -1469,7 +1469,7 @@
       "column7": 0
     }
   ],
-  "Poppy": [
+  "poppy": [
     {
       "row": 1,
       "column1": 0,
@@ -1511,7 +1511,7 @@
       "column7": 0
     }
   ],
-  "Rell": [
+  "rell": [
     {
       "row": 1,
       "column1": 0,
@@ -1553,7 +1553,7 @@
       "column7": 0
     }
   ],
-  "Riven": [
+  "riven": [
     {
       "row": 1,
       "column1": 0,
@@ -1595,7 +1595,7 @@
       "column7": 0
     }
   ],
-  "Ryze": [
+  "ryze": [
     {
       "row": 1,
       "column1": 0,
@@ -1637,7 +1637,7 @@
       "column7": 0
     }
   ],
-  "Sejuani": [
+  "sejuani": [
     {
       "row": 1,
       "column1": 0,
@@ -1679,7 +1679,7 @@
       "column7": 0
     }
   ],
-  "Sett": [
+  "sett": [
     {
       "row": 1,
       "column1": 0,
@@ -1721,7 +1721,7 @@
       "column7": 0
     }
   ],
-  "Soraka": [
+  "soraka": [
     {
       "row": 1,
       "column1": 0,
@@ -1763,7 +1763,7 @@
       "column7": 0
     }
   ],
-  "Syndra": [
+  "syndra": [
     {
       "row": 1,
       "column1": 0,
@@ -1805,7 +1805,7 @@
       "column7": 0
     }
   ],
-  "Taric": [
+  "taric": [
     {
       "row": 1,
       "column1": 0,
@@ -1847,7 +1847,7 @@
       "column7": 0
     }
   ],
-  "Teemo": [
+  "teemo": [
     {
       "row": 1,
       "column1": 0,
@@ -1889,7 +1889,7 @@
       "column7": 0
     }
   ],
-  "Thresh": [
+  "thresh": [
     {
       "row": 1,
       "column1": 0,
@@ -1931,7 +1931,7 @@
       "column7": 0
     }
   ],
-  "Trundle": [
+  "trundle": [
     {
       "row": 1,
       "column1": 0,
@@ -1973,7 +1973,7 @@
       "column7": 0
     }
   ],
-  "Udyr": [
+  "udyr": [
     {
       "row": 1,
       "column1": 0,
@@ -2015,7 +2015,7 @@
       "column7": 0
     }
   ],
-  "Varus": [
+  "varus": [
     {
       "row": 1,
       "column1": 0,
@@ -2057,7 +2057,7 @@
       "column7": 0
     }
   ],
-  "Vayne": [
+  "vayne": [
     {
       "row": 1,
       "column1": 0,
@@ -2099,7 +2099,7 @@
       "column7": 0
     }
   ],
-  "Vel'Koz": [
+  "velkoz": [
     {
       "row": 1,
       "column1": 0,
@@ -2141,7 +2141,7 @@
       "column7": 0
     }
   ],
-  "Viego": [
+  "viego": [
     {
       "row": 1,
       "column1": 0,
@@ -2183,7 +2183,7 @@
       "column7": 0
     }
   ],
-  "Viktor": [
+  "viktor": [
     {
       "row": 1,
       "column1": 0,
@@ -2225,7 +2225,7 @@
       "column7": 0
     }
   ],
-  "Vladimir": [
+  "vladimir": [
     {
       "row": 1,
       "column1": 0,
@@ -2267,7 +2267,7 @@
       "column7": 0
     }
   ],
-  "Volibear": [
+  "volibear": [
     {
       "row": 1,
       "column1": 0,
@@ -2309,7 +2309,7 @@
       "column7": 0
     }
   ],
-  "Warwick": [
+  "warwick": [
     {
       "row": 1,
       "column1": 0,
@@ -2351,7 +2351,7 @@
       "column7": 0
     }
   ],
-  "Yasuo": [
+  "yasuo": [
     {
       "row": 1,
       "column1": 0,
@@ -2393,7 +2393,7 @@
       "column7": 0
     }
   ],
-  "Ziggs": [
+  "ziggs": [
     {
       "row": 1,
       "column1": 0,
@@ -2435,7 +2435,7 @@
       "column7": 0
     }
   ],
-  "Zyra": [
+  "zyra": [
     {
       "row": 1,
       "column1": 0,
