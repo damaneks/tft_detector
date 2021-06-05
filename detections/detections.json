@@ -6061,6 +6061,186 @@
           "4-3": "Ivern"
         }
       }
+    },
+    {
+      "id": 36,
+      "player": "Laellana",
+      "place_ended": "2",
+      "date": "2021-05-30",
+      "region": "Europe",
+      "rounds": {
+        "1-3": {
+          "1-1": "Gragas",
+          "1-2": "Nunu"
+        },
+        "2-1": {
+          "1-2": "Gragas",
+          "1-1": "Nunu"
+        },
+        "2-2": {
+          "1-4": "Warwick",
+          "1-5": "Gragas",
+          "4-7": "Kha'Zix",
+          "2-2": "Thresh",
+          "4-1": "Brand"
+        },
+        "2-3": {
+          "4-1": "Katarina",
+          "1-4": "Warwick",
+          "4-4": "Leblanc",
+          "2-1": "Thresh",
+          "1-5": "Gragas"
+        },
+        "2-5": {
+          "1-1": "Thresh",
+          "4-2": "Warwick",
+          "1-2": "Gragas",
+          "4-7": "Kha'Zix",
+          "4-1": "Katarina"
+        },
+        "2-6": {
+          "1-6": "Warwick",
+          "1-7": "Warwick",
+          "4-7": "Kha'Zix"
+        },
+        "2-7": {
+          "4-6": "Leblanc",
+          "1-6": "Warwick",
+          "1-7": "Warwick",
+          "2-7": "Kha'Zix"
+        },
+        "3-1": {
+          "4-6": "Leblanc",
+          "4-4": "Leblanc",
+          "2-5": "Gragas",
+          "4-1": "Kha'Zix",
+          "2-2": "Warwick"
+        },
+        "3-2": {
+          "2-2": "Warwick",
+          "4-2": "Kha'Zix",
+          "4-7": "Nocturne"
+        },
+        "3-3": {
+          "4-2": "Nocturne",
+          "2-3": "Gragas",
+          "4-1": "Kha'Zix",
+          "2-1": "Warwick"
+        },
+        "3-5": {
+          "3-7": "Nocturne",
+          "4-2": "Katarina",
+          "4-3": "Zyra",
+          "4-1": "Kha'Zix",
+          "1-4": "Warwick",
+          "1-2": "Gragas"
+        },
+        "3-6": {
+          "4-3": "Leblanc",
+          "4-4": "Leblanc",
+          "4-7": "Nocturne",
+          "4-2": "Katarina",
+          "4-1": "Kha'Zix",
+          "1-4": "Morgana"
+        },
+        "3-7": {
+          "4-3": "Leblanc",
+          "4-4": "Leblanc",
+          "4-7": "Nocturne",
+          "4-2": "Katarina",
+          "4-1": "Kha'Zix",
+          "1-4": "Morgana"
+        },
+        "4-1": {
+          "4-4": "Nocturne",
+          "4-7": "Lux",
+          "4-2": "Katarina",
+          "4-1": "Kha'Zix",
+          "1-4": "Morgana"
+        },
+        "4-2": {
+          "4-5": "Katarina",
+          "4-7": "Lissandra",
+          "4-4": "Lissandra",
+          "4-1": "Morgana",
+          "4-3": "Nocturne"
+        },
+        "4-3": {
+          "4-6": "Katarina",
+          "4-7": "Lissandra",
+          "4-5": "Lissandra",
+          "1-7": "Nocturne",
+          "4-2": "Morgana"
+        },
+        "4-5": {
+          "1-7": "Nocturne",
+          "4-6": "Katarina",
+          "1-3": "Kha'Zix",
+          "4-7": "Lissandra",
+          "4-1": "Morgana"
+        },
+        "4-6": {
+          "4-6": "Katarina",
+          "1-7": "Nocturne",
+          "1-3": "Kha'Zix",
+          "4-7": "Lissandra",
+          "4-1": "Morgana"
+        },
+        "4-7": {
+          "1-7": "Nocturne",
+          "4-6": "Katarina",
+          "4-7": "Lissandra",
+          "1-3": "Kha'Zix",
+          "4-1": "Morgana"
+        },
+        "5-1": {
+          "1-7": "Nocturne",
+          "4-7": "Lissandra",
+          "4-5": "Lissandra",
+          "1-3": "Kha'Zix",
+          "4-6": "Katarina"
+        },
+        "5-2": {
+          "4-6": "Katarina",
+          "4-5": "Vel'Koz",
+          "1-7": "Nocturne",
+          "4-1": "Morgana",
+          "4-7": "Lissandra"
+        },
+        "5-3": {
+          "4-1": "Lissandra",
+          "4-6": "Katarina",
+          "4-7": "Morgana"
+        },
+        "5-5": {
+          "4-2": "Katarina",
+          "4-1": "Morgana",
+          "4-7": "Lissandra"
+        },
+        "6-1": {
+          "4-5": "Vladimir",
+          "4-6": "Katarina",
+          "4-1": "Lissandra",
+          "4-7": "Morgana"
+        },
+        "6-2": {
+          "4-2": "Diana",
+          "4-1": "Lissandra",
+          "4-6": "Katarina",
+          "4-7": "Morgana"
+        },
+        "6-3": {
+          "4-6": "Katarina",
+          "3-2": "Kha'Zix",
+          "4-1": "Lissandra"
+        },
+        "6-5": {
+          "4-7": "Morgana",
+          "4-5": "Lissandra",
+          "4-1": "Lissandra",
+          "2-6": "Viego"
+        }
+      }
     }
   ]
 }
