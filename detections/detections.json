@@ -2313,6 +2313,176 @@
           "4-1": "Lux"
         }
       }
+    },
+    {
+      "id": 15,
+      "player": "bebe872",
+      "place_ended": "3",
+      "date": "2021-05-27",
+      "region": "Asia",
+      "rounds": {
+        "1-3": {
+          "4-1": "Soraka",
+          "1-3": "Gragas"
+        },
+        "2-1": {
+          "4-7": "Lissandra",
+          "4-6": "Lissandra"
+        },
+        "2-2": {
+          "1-7": "Vladimir",
+          "4-6": "Lissandra",
+          "4-7": "Lissandra"
+        },
+        "2-6": {
+          "1-5": "Kalista",
+          "4-1": "Leona",
+          "3-7": "Kled"
+        },
+        "2-7": {
+          "3-7": "Kalista",
+          "4-7": "Ziggs",
+          "1-6": "Kennen",
+          "2-7": "Brand",
+          "1-7": "Nunu"
+        },
+        "3-1": {
+          "4-6": "Kalista",
+          "4-7": "Ziggs",
+          "1-7": "Nunu",
+          "3-7": "Kennen",
+          "2-7": "Brand"
+        },
+        "3-2": {
+          "4-7": "Vel'Koz",
+          "4-6": "Kalista",
+          "3-7": "Kennen",
+          "1-7": "Nunu",
+          "4-5": "Poppy",
+          "2-7": "Brand"
+        },
+        "3-6": {
+          "4-2": "Lulu",
+          "3-7": "Kennen",
+          "4-4": "Ivern",
+          "3-4": "Syndra",
+          "4-1": "Ziggs",
+          "4-5": "Poppy",
+          "1-7": "Kled"
+        },
+        "3-7": {
+          "4-7": "Ziggs",
+          "1-7": "Kled",
+          "3-5": "Syndra",
+          "3-7": "Kennen",
+          "4-4": "Ivern",
+          "4-3": "Poppy"
+        },
+        "4-1": {
+          "4-7": "Ziggs",
+          "1-7": "Kled",
+          "4-4": "Ivern",
+          "3-5": "Syndra",
+          "4-3": "Poppy"
+        },
+        "4-2": {
+          "4-7": "Ziggs",
+          "4-4": "Ivern",
+          "3-5": "Ryze",
+          "3-6": "Syndra",
+          "4-3": "Poppy"
+        },
+        "4-3": {
+          "1-7": "Ziggs",
+          "3-6": "Syndra",
+          "4-5": "Lulu",
+          "4-1": "Zyra",
+          "4-3": "Thresh",
+          "3-7": "Poppy",
+          "4-7": "Heimerdinger"
+        },
+        "4-5": {
+          "1-7": "Ziggs",
+          "4-7": "Ziggs",
+          "3-7": "Poppy",
+          "4-1": "Thresh",
+          "3-6": "Syndra"
+        },
+        "4-6": {
+          "4-7": "Thresh",
+          "4-4": "Lulu",
+          "4-1": "Ziggs",
+          "1-7": "Ziggs",
+          "3-3": "Syndra",
+          "4-5": "Vel'Koz",
+          "4-3": "Ivern",
+          "3-7": "Poppy"
+        },
+        "4-7": {
+          "4-7": "Ziggs",
+          "1-7": "Ziggs",
+          "3-6": "Syndra",
+          "3-7": "Poppy",
+          "4-1": "Thresh",
+          "4-3": "Ivern",
+          "4-5": "Vel'Koz"
+        },
+        "5-1": {
+          "4-3": "Vel'Koz",
+          "4-4": "Vel'Koz",
+          "4-7": "Ryze",
+          "4-1": "Ziggs",
+          "1-2": "Ziggs",
+          "3-3": "Syndra",
+          "3-1": "Poppy",
+          "3-4": "Ivern",
+          "4-5": "Ivern"
+        },
+        "5-2": {
+          "1-2": "Kennen",
+          "3-1": "Ivern",
+          "4-4": "Ivern",
+          "4-1": "Ziggs",
+          "4-3": "Vel'Koz",
+          "3-3": "Syndra",
+          "4-7": "Viktor"
+        },
+        "5-3": {
+          "1-2": "Kennen",
+          "4-3": "Vel'Koz",
+          "3-3": "Vel'Koz",
+          "4-7": "Lux",
+          "4-1": "Ziggs",
+          "3-5": "Poppy",
+          "3-1": "Ivern"
+        },
+        "5-5": {
+          "4-4": "Vel'Koz",
+          "4-3": "Syndra",
+          "4-1": "Ziggs",
+          "1-7": "Ziggs",
+          "4-7": "Lux",
+          "4-5": "Poppy",
+          "3-1": "Ivern"
+        },
+        "6-1": {
+          "3-4": "Ivern",
+          "4-1": "Lux",
+          "4-5": "Vel'Koz",
+          "4-6": "Ziggs",
+          "4-7": "Ziggs",
+          "4-3": "Poppy"
+        },
+        "6-2": {
+          "3-4": "Ivern",
+          "4-7": "Ziggs",
+          "4-6": "Lux",
+          "4-2": "Vel'Koz",
+          "4-3": "Vel'Koz",
+          "3-5": "Syndra",
+          "4-5": "Poppy"
+        }
+      }
     }
   ]
 }
