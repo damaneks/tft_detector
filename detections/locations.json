@@ -5,9 +5,9 @@
       "column1": 69,
       "column2": 141,
       "column3": 128,
-      "column4": 197,
-      "column5": 167,
-      "column6": 153,
+      "column4": 198,
+      "column5": 170,
+      "column6": 155,
       "column7": 127
     },
     {
@@ -15,30 +15,30 @@
       "column1": 45,
       "column2": 41,
       "column3": 63,
-      "column4": 86,
+      "column4": 87,
       "column5": 76,
       "column6": 67,
-      "column7": 97
+      "column7": 98
     },
     {
       "row": 3,
       "column1": 89,
       "column2": 67,
       "column3": 27,
-      "column4": 67,
-      "column5": 73,
-      "column6": 91,
-      "column7": 195
+      "column4": 68,
+      "column5": 74,
+      "column6": 97,
+      "column7": 211
     },
     {
       "row": 4,
-      "column1": 243,
-      "column2": 116,
-      "column3": 84,
-      "column4": 141,
-      "column5": 181,
-      "column6": 237,
-      "column7": 364
+      "column1": 245,
+      "column2": 117,
+      "column3": 89,
+      "column4": 153,
+      "column5": 195,
+      "column6": 253,
+      "column7": 381
     }
   ],
   "aatrox": [
@@ -205,7 +205,7 @@
       "column3": 3,
       "column4": 3,
       "column5": 2,
-      "column6": 25,
+      "column6": 34,
       "column7": 9
     }
   ],
@@ -455,8 +455,8 @@
       "column1": 1,
       "column2": 0,
       "column3": 5,
-      "column4": 15,
-      "column5": 9,
+      "column4": 16,
+      "column5": 11,
       "column6": 2,
       "column7": 0
     }
@@ -494,13 +494,13 @@
     },
     {
       "row": 4,
-      "column1": 2,
+      "column1": 3,
       "column2": 0,
       "column3": 0,
       "column4": 1,
       "column5": 3,
       "column6": 3,
-      "column7": 12
+      "column7": 13
     }
   ],
   "ivern": [
@@ -537,8 +537,8 @@
     {
       "row": 4,
       "column1": 0,
-      "column2": 2,
-      "column3": 6,
+      "column2": 3,
+      "column3": 7,
       "column4": 21,
       "column5": 8,
       "column6": 4,
@@ -762,7 +762,7 @@
       "column2": 6,
       "column3": 0,
       "column4": 1,
-      "column5": 3,
+      "column5": 5,
       "column6": 13,
       "column7": 0
     },
@@ -784,7 +784,7 @@
       "column4": 0,
       "column5": 0,
       "column6": 1,
-      "column7": 6
+      "column7": 7
     },
     {
       "row": 4,
@@ -907,20 +907,20 @@
       "column1": 0,
       "column2": 0,
       "column3": 1,
-      "column4": 0,
-      "column5": 1,
-      "column6": 0,
-      "column7": 10
+      "column4": 1,
+      "column5": 2,
+      "column6": 2,
+      "column7": 12
     },
     {
       "row": 4,
       "column1": 1,
       "column2": 1,
       "column3": 1,
-      "column4": 1,
-      "column5": 4,
+      "column4": 7,
+      "column5": 5,
       "column6": 1,
-      "column7": 2
+      "column7": 3
     }
   ],
   "leblanc": [
@@ -1026,7 +1026,7 @@
       "column4": 0,
       "column5": 0,
       "column6": 0,
-      "column7": 0
+      "column7": 1
     },
     {
       "row": 3,
@@ -1086,7 +1086,7 @@
       "column2": 1,
       "column3": 1,
       "column4": 1,
-      "column5": 0,
+      "column5": 1,
       "column6": 3,
       "column7": 8
     }
@@ -1127,8 +1127,8 @@
       "column1": 6,
       "column2": 5,
       "column3": 1,
-      "column4": 1,
-      "column5": 2,
+      "column4": 2,
+      "column5": 6,
       "column6": 4,
       "column7": 1
     }
@@ -1172,7 +1172,7 @@
       "column4": 0,
       "column5": 1,
       "column6": 1,
-      "column7": 51
+      "column7": 52
     }
   ],
   "mordekaiser": [
@@ -1475,9 +1475,9 @@
       "column1": 0,
       "column2": 0,
       "column3": 9,
-      "column4": 3,
+      "column4": 4,
       "column5": 5,
-      "column6": 2,
+      "column6": 3,
       "column7": 0
     },
     {
@@ -1498,7 +1498,7 @@
       "column4": 5,
       "column5": 1,
       "column6": 7,
-      "column7": 14
+      "column7": 27
     },
     {
       "row": 4,
@@ -1506,8 +1506,8 @@
       "column2": 3,
       "column3": 4,
       "column4": 1,
-      "column5": 10,
-      "column6": 16,
+      "column5": 11,
+      "column6": 17,
       "column7": 1
     }
   ],
@@ -1519,7 +1519,7 @@
       "column3": 0,
       "column4": 4,
       "column5": 0,
-      "column6": 0,
+      "column6": 1,
       "column7": 0
     },
     {
@@ -1527,7 +1527,7 @@
       "column1": 0,
       "column2": 2,
       "column3": 6,
-      "column4": 7,
+      "column4": 8,
       "column5": 1,
       "column6": 0,
       "column7": 0
@@ -1546,10 +1546,10 @@
       "row": 4,
       "column1": 13,
       "column2": 6,
-      "column3": 0,
-      "column4": 4,
+      "column3": 4,
+      "column4": 7,
       "column5": 2,
-      "column6": 1,
+      "column6": 2,
       "column7": 4
     }
   ],
@@ -1665,7 +1665,7 @@
       "column3": 0,
       "column4": 0,
       "column5": 0,
-      "column6": 1,
+      "column6": 5,
       "column7": 2
     },
     {
@@ -1674,7 +1674,7 @@
       "column2": 2,
       "column3": 1,
       "column4": 1,
-      "column5": 0,
+      "column5": 4,
       "column6": 3,
       "column7": 0
     }
@@ -2221,7 +2221,7 @@
       "column3": 2,
       "column4": 10,
       "column5": 15,
-      "column6": 22,
+      "column6": 26,
       "column7": 40
     }
   ],
@@ -2400,7 +2400,7 @@
       "column2": 7,
       "column3": 0,
       "column4": 2,
-      "column5": 0,
+      "column5": 1,
       "column6": 0,
       "column7": 6
     },
@@ -2426,13 +2426,13 @@
     },
     {
       "row": 4,
-      "column1": 26,
+      "column1": 27,
       "column2": 3,
       "column3": 0,
-      "column4": 1,
-      "column5": 1,
-      "column6": 8,
-      "column7": 36
+      "column4": 2,
+      "column5": 2,
+      "column6": 9,
+      "column7": 50
     }
   ],
   "zyra": [
