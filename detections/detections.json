@@ -4860,6 +4860,181 @@
           "1-5": "Pantheon"
         }
       }
+    },
+    {
+      "id": 29,
+      "player": "NoobOwl",
+      "place_ended": "2",
+      "date": "2021-05-31",
+      "region": "America",
+      "rounds": {
+        "1-3": {
+          "4-2": "Kalista",
+          "4-1": "Kalista"
+        },
+        "1-4": {
+          "1-4": "Warwick",
+          "4-7": "Kalista"
+        },
+        "2-1": {
+          "4-4": "Hecarim",
+          "3-4": "Katarina",
+          "1-4": "Warwick"
+        },
+        "2-2": {
+          "3-4": "Katarina",
+          "4-3": "Leblanc",
+          "4-4": "Hecarim",
+          "1-4": "Warwick"
+        },
+        "2-5": {
+          "4-4": "Leblanc",
+          "4-3": "Katarina",
+          "3-6": "Katarina",
+          "4-5": "Hecarim",
+          "1-4": "Warwick"
+        },
+        "2-7": {
+          "4-6": "Katarina",
+          "3-6": "Katarina",
+          "4-5": "Leblanc",
+          "4-4": "Hecarim",
+          "1-5": "Warwick"
+        },
+        "3-1": {
+          "4-3": "Hecarim",
+          "1-5": "Warwick",
+          "4-5": "Leblanc",
+          "4-6": "Katarina"
+        },
+        "3-2": {
+          "2-3": "Taric",
+          "1-4": "Warwick",
+          "3-4": "Thresh",
+          "4-6": "Katarina",
+          "4-5": "Leblanc"
+        },
+        "3-3": {
+          "2-3": "Taric",
+          "4-4": "Katarina",
+          "4-6": "Katarina",
+          "4-5": "Leblanc",
+          "1-4": "Warwick",
+          "3-4": "Thresh"
+        },
+        "3-5": {
+          "2-3": "Taric",
+          "4-4": "Leblanc",
+          "1-4": "Warwick",
+          "3-4": "Warwick"
+        },
+        "3-6": {
+          "4-4": "Brand",
+          "3-4": "Thresh",
+          "4-5": "Hecarim",
+          "3-5": "Rell",
+          "4-3": "Kha'Zix",
+          "1-4": "Warwick",
+          "2-3": "Taric"
+        },
+        "3-7": {
+          "4-5": "Hecarim",
+          "4-4": "Brand",
+          "1-4": "Warwick",
+          "3-4": "Thresh",
+          "2-3": "Taric",
+          "4-3": "Kha'Zix"
+        },
+        "4-1": {
+          "3-5": "Rell",
+          "3-4": "Thresh",
+          "4-3": "Kha'Zix",
+          "1-4": "Warwick",
+          "4-4": "Hecarim",
+          "2-3": "Taric"
+        },
+        "4-2": {
+          "3-5": "Rell",
+          "4-3": "Nocturne",
+          "1-4": "Warwick"
+        },
+        "4-3": {
+          "4-4": "Hecarim",
+          "2-3": "Taric",
+          "1-3": "Warwick",
+          "4-3": "Kha'Zix"
+        },
+        "4-5": {
+          "4-1": "Viego",
+          "2-4": "Garen",
+          "4-3": "Hecarim",
+          "3-4": "Syndra",
+          "4-2": "Kha'Zix",
+          "4-5": "Nocturne"
+        },
+        "4-6": {
+          "4-4": "Ivern",
+          "4-1": "Viego",
+          "1-4": "Garen",
+          "2-4": "Taric",
+          "4-3": "Soraka",
+          "4-5": "Hecarim",
+          "3-5": "Rell"
+        },
+        "5-1": {
+          "1-4": "Garen",
+          "2-5": "Volibear",
+          "2-4": "Taric",
+          "4-4": "Ivern",
+          "4-3": "Soraka",
+          "4-1": "Viego"
+        },
+        "5-2": {
+          "2-5": "Volibear",
+          "2-4": "Taric",
+          "4-1": "Viego",
+          "3-6": "Ryze",
+          "3-5": "Ivern",
+          "3-3": "Soraka",
+          "1-4": "Garen"
+        },
+        "5-7": {
+          "2-5": "Volibear",
+          "3-6": "Kindred",
+          "4-6": "Karma",
+          "2-4": "Taric",
+          "4-7": "Heimerdinger",
+          "1-6": "Ivern"
+        },
+        "6-1": {
+          "3-7": "Kindred",
+          "3-4": "Volibear",
+          "4-6": "Karma",
+          "4-3": "Garen",
+          "4-5": "Ivern",
+          "3-5": "Ivern",
+          "4-7": "Heimerdinger"
+        },
+        "6-3": {
+          "4-6": "Karma",
+          "4-7": "Heimerdinger",
+          "3-7": "Kindred",
+          "3-5": "Ivern",
+          "4-4": "Garen"
+        },
+        "6-5": {
+          "3-3": "Volibear",
+          "2-3": "Kindred",
+          "1-1": "Taric",
+          "2-2": "Ivern",
+          "4-1": "Karma"
+        },
+        "6-6": {
+          "4-3": "Volibear",
+          "4-5": "Ivern",
+          "2-6": "Kindred"
+        }
+      }
     }
   ]
 }
