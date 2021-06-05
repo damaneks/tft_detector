@@ -2815,6 +2815,213 @@
           "3-7": "Ivern"
         }
       }
+    },
+    {
+      "id": 18,
+      "player": "bebe872",
+      "place_ended": "3",
+      "date": "2021-05-27",
+      "region": "Asia",
+      "rounds": {
+        "1-4": {
+          "4-7": "Kalista",
+          "1-6": "Aatrox",
+          "2-7": "Brand"
+        },
+        "2-1": {
+          "1-6": "Aatrox",
+          "1-5": "Riven",
+          "1-7": "Riven",
+          "1-2": "Kha'Zix"
+        },
+        "2-2": {
+          "1-7": "Nunu",
+          "4-7": "Kalista",
+          "2-6": "Brand",
+          "2-7": "Riven"
+        },
+        "2-3": {
+          "4-6": "Nunu",
+          "4-7": "Kalista",
+          "1-6": "Gragas",
+          "2-7": "Brand"
+        },
+        "2-5": {
+          "2-6": "Riven",
+          "1-6": "Gragas",
+          "2-5": "Nunu",
+          "4-7": "Kalista",
+          "2-7": "Brand"
+        },
+        "2-6": {
+          "2-5": "Nunu",
+          "2-6": "Riven",
+          "4-7": "Kalista",
+          "2-7": "Brand"
+        },
+        "2-7": {
+          "2-5": "Nunu",
+          "2-6": "Riven",
+          "1-6": "Gragas",
+          "4-7": "Kalista",
+          "2-7": "Brand"
+        },
+        "3-1": {
+          "2-6": "Riven",
+          "2-5": "Nunu",
+          "4-1": "Zyra",
+          "4-7": "Kalista",
+          "2-7": "Brand"
+        },
+        "3-2": {
+          "4-7": "Kalista",
+          "4-1": "Zyra",
+          "2-5": "Nunu",
+          "2-6": "Riven",
+          "2-7": "Brand",
+          "1-6": "Gragas"
+        },
+        "3-3": {
+          "4-1": "Zyra",
+          "2-5": "Nunu",
+          "2-6": "Riven",
+          "4-7": "Kalista",
+          "2-7": "Brand"
+        },
+        "3-5": {
+          "4-1": "Zyra",
+          "2-5": "Nunu",
+          "4-7": "Kalista",
+          "2-6": "Riven",
+          "2-7": "Brand"
+        },
+        "3-6": {
+          "4-1": "Zyra",
+          "2-5": "Nunu",
+          "4-7": "Kalista",
+          "2-6": "Riven",
+          "2-7": "Brand"
+        },
+        "3-7": {
+          "4-1": "Zyra",
+          "2-7": "Brand",
+          "2-5": "Nunu",
+          "4-7": "Kalista",
+          "2-6": "Riven"
+        },
+        "4-1": {
+          "4-1": "Sett",
+          "4-7": "Kalista",
+          "2-5": "Nunu",
+          "4-6": "Warwick",
+          "2-6": "Riven",
+          "2-7": "Brand"
+        },
+        "4-2": {
+          "2-6": "Riven",
+          "4-1": "Sett",
+          "4-6": "Warwick",
+          "2-4": "Nunu",
+          "2-5": "Gragas",
+          "2-7": "Brand",
+          "4-7": "Kalista"
+        },
+        "4-3": {
+          "1-6": "Gragas",
+          "2-6": "Riven",
+          "4-1": "Yasuo",
+          "2-7": "Draven",
+          "2-5": "Nunu",
+          "2-4": "Brand",
+          "4-7": "Kalista"
+        },
+        "4-5": {
+          "4-7": "Kalista",
+          "2-4": "Kalista",
+          "4-1": "Lee Sin",
+          "2-6": "Lee Sin",
+          "2-5": "Nunu"
+        },
+        "4-6": {
+          "4-1": "Lee Sin",
+          "2-6": "Riven",
+          "4-7": "Kalista",
+          "2-5": "Nunu",
+          "2-7": "Brand"
+        },
+        "4-7": {
+          "4-6": "Draven",
+          "2-6": "Riven",
+          "2-5": "Nunu",
+          "4-7": "Kalista",
+          "2-7": "Brand",
+          "4-1": "Yasuo"
+        },
+        "5-1": {
+          "4-1": "Draven",
+          "4-7": "Kalista",
+          "2-5": "Nunu",
+          "3-2": "Lee Sin",
+          "2-6": "Riven",
+          "2-7": "Brand"
+        },
+        "5-2": {
+          "2-6": "Riven",
+          "2-5": "Nunu",
+          "4-1": "Draven",
+          "3-2": "Yasuo"
+        },
+        "5-3": {
+          "1-5": "Mordekaiser",
+          "2-2": "Riven",
+          "4-6": "Yasuo",
+          "1-6": "Lulu",
+          "4-2": "Soraka",
+          "4-7": "Draven",
+          "2-1": "Brand"
+        },
+        "6-1": {
+          "1-6": "Lulu",
+          "2-6": "Riven",
+          "4-2": "Soraka",
+          "4-1": "Lux"
+        },
+        "6-2": {
+          "2-7": "Thresh",
+          "3-2": "Ivern",
+          "4-3": "Yasuo",
+          "4-1": "Lux",
+          "4-2": "Soraka"
+        },
+        "6-3": {
+          "4-1": "Yasuo",
+          "4-7": "Soraka",
+          "1-1": "Lux",
+          "1-5": "Pantheon",
+          "2-6": "Riven"
+        },
+        "6-5": {
+          "3-2": "Brand",
+          "1-3": "Kled",
+          "4-1": "Yasuo",
+          "4-7": "Soraka"
+        },
+        "6-6": {
+          "4-1": "Draven",
+          "4-7": "Lux",
+          "4-6": "Riven",
+          "4-4": "Riven",
+          "4-5": "Riven",
+          "1-4": "Kled"
+        },
+        "7-1": {
+          "4-1": "Draven",
+          "4-5": "Kindred",
+          "4-7": "Lux",
+          "4-6": "Yasuo",
+          "4-3": "Soraka"
+        }
+      }
     }
   ]
 }
