@@ -3022,6 +3022,226 @@
           "4-3": "Soraka"
         }
       }
+    },
+    {
+      "id": 19,
+      "player": "KC_Double61",
+      "place_ended": "1",
+      "date": "2021-05-30",
+      "region": "Europe",
+      "rounds": {
+        "1-4": {
+          "2-7": "Vayne",
+          "1-6": "Poppy",
+          "1-5": "Kled"
+        },
+        "2-1": {
+          "3-7": "Thresh",
+          "4-7": "Vayne",
+          "2-5": "Warwick",
+          "4-6": "Hecarim"
+        },
+        "2-2": {
+          "4-7": "Vayne",
+          "3-7": "Hecarim",
+          "4-6": "Ashe",
+          "1-4": "Warwick"
+        },
+        "2-3": {
+          "3-7": "Hecarim",
+          "4-7": "Vayne",
+          "4-6": "Ashe",
+          "1-4": "Warwick"
+        },
+        "2-5": {
+          "4-5": "Hecarim",
+          "3-7": "Thresh",
+          "1-6": "Warwick"
+        },
+        "2-6": {
+          "4-7": "Vayne",
+          "3-7": "Thresh",
+          "1-6": "Warwick",
+          "4-5": "Hecarim",
+          "4-6": "Ashe"
+        },
+        "2-7": {
+          "3-6": "Thresh",
+          "4-6": "Hecarim",
+          "1-5": "Warwick"
+        },
+        "3-1": {
+          "1-6": "Warwick",
+          "1-4": "Hecarim",
+          "3-7": "Thresh",
+          "4-6": "Viktor",
+          "4-7": "Viktor"
+        },
+        "3-3": {
+          "2-5": "Warwick",
+          "1-4": "Hecarim",
+          "3-7": "Thresh",
+          "4-6": "Viktor",
+          "4-7": "Vayne"
+        },
+        "3-5": {
+          "1-6": "Warwick",
+          "3-7": "Thresh",
+          "1-4": "Hecarim",
+          "4-5": "Varus",
+          "4-7": "Viktor",
+          "4-6": "Viktor",
+          "2-6": "Katarina"
+        },
+        "3-6": {
+          "2-5": "Katarina",
+          "4-5": "Viktor",
+          "1-6": "Warwick",
+          "3-7": "Thresh",
+          "4-6": "Ashe",
+          "1-4": "Hecarim"
+        },
+        "3-7": {
+          "1-6": "Warwick",
+          "4-6": "Ashe",
+          "4-5": "Viktor",
+          "1-4": "Hecarim"
+        },
+        "4-1": {
+          "3-7": "Thresh",
+          "4-6": "Ashe",
+          "1-6": "Warwick",
+          "4-5": "Viktor",
+          "1-4": "Hecarim"
+        },
+        "4-2": {
+          "4-1": "Vayne",
+          "3-2": "Vayne",
+          "2-4": "Katarina",
+          "1-6": "Warwick",
+          "1-4": "Hecarim"
+        },
+        "4-3": {
+          "1-5": "Katarina",
+          "4-1": "Vayne",
+          "3-2": "Thresh",
+          "1-4": "Hecarim",
+          "4-2": "Ashe",
+          "3-5": "Warwick",
+          "4-7": "Rell",
+          "4-3": "Viktor"
+        },
+        "4-5": {
+          "2-5": "Katarina",
+          "4-7": "Vayne",
+          "1-4": "Hecarim",
+          "4-5": "Viktor",
+          "4-6": "Ashe",
+          "3-7": "Thresh",
+          "3-6": "Warwick",
+          "4-4": "Rell"
+        },
+        "4-6": {
+          "3-7": "Thresh",
+          "4-7": "Vayne",
+          "4-6": "Ashe",
+          "2-5": "Katarina",
+          "4-5": "Viktor",
+          "3-6": "Warwick",
+          "2-4": "Hecarim",
+          "4-4": "Rell"
+        },
+        "5-1": {
+          "4-6": "Ashe",
+          "4-7": "Vayne",
+          "2-5": "Katarina",
+          "3-6": "Warwick",
+          "4-4": "Rell",
+          "2-4": "Hecarim",
+          "3-7": "Thresh",
+          "4-5": "Viktor"
+        },
+        "5-2": {
+          "3-6": "Warwick",
+          "1-4": "Hecarim",
+          "4-5": "Viktor",
+          "2-5": "Katarina",
+          "4-4": "Rell",
+          "4-6": "Ashe",
+          "3-7": "Thresh"
+        },
+        "5-3": {
+          "3-5": "Katarina",
+          "3-7": "Vayne",
+          "2-5": "Thresh",
+          "1-4": "Hecarim",
+          "4-4": "Nautilus",
+          "3-6": "Warwick"
+        },
+        "5-6": {
+          "4-7": "Vayne",
+          "3-5": "Thresh",
+          "4-4": "Katarina",
+          "4-5": "Viktor",
+          "1-5": "Hecarim",
+          "1-2": "Warwick",
+          "4-6": "Ryze"
+        },
+        "5-7": {
+          "3-6": "Brand",
+          "3-4": "Thresh",
+          "1-5": "Hecarim",
+          "4-6": "Ryze",
+          "4-7": "Vayne",
+          "4-3": "Draven",
+          "4-4": "Katarina",
+          "1-2": "Warwick",
+          "4-5": "Viktor"
+        },
+        "6-1": {
+          "3-7": "Viktor",
+          "4-7": "Viktor",
+          "2-6": "Viktor",
+          "1-3": "Viego",
+          "3-6": "Ryze",
+          "3-5": "Katarina"
+        },
+        "6-2": {
+          "3-6": "Thresh",
+          "3-5": "Viego",
+          "4-6": "Ryze",
+          "4-7": "Draven",
+          "3-7": "Viktor",
+          "4-4": "Katarina",
+          "1-4": "Hecarim",
+          "4-5": "Vayne",
+          "2-1": "Warwick"
+        },
+        "6-5": {
+          "4-6": "Ryze",
+          "4-4": "Vayne",
+          "3-6": "Thresh",
+          "1-2": "Warwick"
+        },
+        "6-6": {
+          "4-7": "Draven",
+          "2-4": "Viego",
+          "4-4": "Vayne",
+          "3-6": "Thresh",
+          "4-5": "Katarina",
+          "1-2": "Warwick",
+          "3-7": "Viktor"
+        },
+        "7-1": {
+          "3-7": "Viktor",
+          "4-5": "Vayne",
+          "4-1": "Katarina",
+          "1-5": "Warwick",
+          "1-6": "Thresh",
+          "1-4": "Hecarim",
+          "1-2": "Ryze"
+        }
+      }
     }
   ]
 }
