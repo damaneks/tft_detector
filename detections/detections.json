@@ -2483,6 +2483,164 @@
           "4-5": "Poppy"
         }
       }
+    },
+    {
+      "id": 16,
+      "player": "bebe872",
+      "place_ended": "4",
+      "date": "2021-05-27",
+      "region": "Asia",
+      "rounds": {
+        "2-1": {
+          "4-7": "Brand",
+          "2-6": "Aatrox",
+          "1-6": "Aatrox"
+        },
+        "2-2": {
+          "4-7": "Aatrox",
+          "4-5": "Aatrox",
+          "4-6": "Aatrox"
+        },
+        "2-3": {
+          "4-6": "Aatrox",
+          "3-7": "Aatrox",
+          "4-5": "Aatrox",
+          "4-7": "Kalista"
+        },
+        "2-5": {
+          "3-7": "Brand",
+          "4-7": "Brand",
+          "4-6": "Kalista",
+          "2-6": "Aatrox"
+        },
+        "2-6": {
+          "4-6": "Kalista",
+          "3-7": "Leona",
+          "4-5": "Thresh",
+          "2-6": "Aatrox"
+        },
+        "2-7": {
+          "4-6": "Kalista",
+          "3-7": "Aatrox",
+          "1-6": "Leona"
+        },
+        "3-1": {
+          "4-7": "Varus",
+          "1-6": "Leona",
+          "3-7": "Aatrox",
+          "4-5": "Thresh"
+        },
+        "3-2": {
+          "4-7": "Varus",
+          "4-5": "Thresh",
+          "1-7": "Leona",
+          "3-7": "Aatrox"
+        },
+        "3-3": {
+          "4-5": "Thresh",
+          "4-7": "Varus",
+          "4-6": "Kalista",
+          "3-7": "Aatrox",
+          "1-7": "Leona"
+        },
+        "3-5": {
+          "3-7": "Aatrox",
+          "4-7": "Vel'Koz",
+          "4-1": "Kalista",
+          "1-6": "Leona",
+          "3-6": "Syndra"
+        },
+        "3-6": {
+          "3-5": "Syndra",
+          "4-7": "Lux",
+          "3-7": "Aatrox",
+          "4-6": "Varus",
+          "4-1": "Rell",
+          "1-6": "Leona"
+        },
+        "3-7": {
+          "4-7": "Lux",
+          "4-1": "Rell",
+          "3-7": "Aatrox",
+          "1-6": "Leona",
+          "3-6": "Syndra"
+        },
+        "4-1": {
+          "3-7": "Aatrox",
+          "3-5": "Syndra",
+          "4-2": "Rell",
+          "4-6": "Varus",
+          "1-6": "Leona",
+          "4-7": "Lux"
+        },
+        "4-2": {
+          "4-7": "Lux",
+          "3-5": "Syndra",
+          "1-6": "Leona",
+          "3-7": "Aatrox"
+        },
+        "4-5": {
+          "3-5": "Syndra",
+          "3-7": "Aatrox",
+          "4-6": "Varus",
+          "4-7": "Lux",
+          "1-7": "Leona"
+        },
+        "4-7": {
+          "3-7": "Aatrox",
+          "3-5": "Syndra",
+          "4-7": "Lux",
+          "1-7": "Leona"
+        },
+        "5-1": {
+          "3-5": "Syndra",
+          "3-7": "Aatrox",
+          "4-7": "Lux",
+          "1-7": "Leona",
+          "4-4": "Nautilus"
+        },
+        "5-3": {
+          "4-1": "Lux",
+          "3-2": "Rell",
+          "3-4": "Syndra",
+          "4-4": "Nautilus",
+          "3-7": "Aatrox",
+          "1-7": "Leona"
+        },
+        "5-6": {
+          "4-7": "Lux",
+          "3-7": "Aatrox",
+          "2-5": "Rell",
+          "3-5": "Syndra",
+          "4-4": "Nautilus",
+          "1-7": "Leona"
+        },
+        "5-7": {
+          "3-7": "Aatrox",
+          "4-7": "Lux",
+          "3-5": "Syndra",
+          "4-4": "Nautilus",
+          "1-7": "Leona",
+          "1-4": "Rell"
+        },
+        "6-1": {
+          "3-6": "Syndra",
+          "3-7": "Aatrox",
+          "4-1": "Lux",
+          "4-2": "Varus",
+          "1-6": "Leona",
+          "4-4": "Nautilus",
+          "4-7": "Volibear"
+        },
+        "6-2": {
+          "4-7": "Lux",
+          "2-3": "Rell",
+          "3-5": "Syndra",
+          "2-4": "Nautilus",
+          "4-4": "Nautilus",
+          "1-6": "Leona"
+        }
+      }
     }
   ]
 }
