@@ -3455,6 +3455,170 @@
           "2-1": "Draven"
         }
       }
+    },
+    {
+      "id": 21,
+      "player": "KC_Double61",
+      "place_ended": "8",
+      "date": "2021-05-30",
+      "region": "Europe",
+      "rounds": {
+        "1-3": {
+          "4-7": "Zyra",
+          "2-5": "Warwick"
+        },
+        "1-4": {
+          "1-6": "Aatrox",
+          "4-7": "Kalista",
+          "1-4": "Warwick"
+        },
+        "2-1": {
+          "4-7": "Kalista",
+          "2-5": "Warwick",
+          "1-4": "Warwick",
+          "1-6": "Gragas"
+        },
+        "2-2": {
+          "4-7": "Kalista",
+          "1-2": "Kha'Zix",
+          "2-5": "Gragas",
+          "4-6": "Warwick"
+        },
+        "2-3": {
+          "4-6": "Warwick",
+          "3-7": "Gragas",
+          "1-2": "Kha'Zix",
+          "4-7": "Kalista"
+        },
+        "2-5": {
+          "4-6": "Warwick",
+          "3-7": "Gragas",
+          "1-2": "Kha'Zix",
+          "4-7": "Kalista"
+        },
+        "2-6": {
+          "4-6": "Brand",
+          "2-5": "Gragas",
+          "4-5": "Aatrox",
+          "4-7": "Kalista",
+          "3-7": "Warwick"
+        },
+        "3-1": {
+          "3-7": "Aatrox",
+          "4-7": "Kalista",
+          "4-6": "Brand",
+          "2-5": "Gragas",
+          "4-5": "Warwick"
+        },
+        "3-2": {
+          "1-5": "Nunu",
+          "1-4": "Gragas",
+          "4-6": "Viktor",
+          "3-7": "Brand",
+          "1-6": "Warwick",
+          "4-7": "Kalista"
+        },
+        "3-3": {
+          "1-7": "Sett",
+          "1-5": "Nunu",
+          "1-4": "Gragas",
+          "4-6": "Brand",
+          "1-6": "Warwick",
+          "4-7": "Kalista"
+        },
+        "3-5": {
+          "1-1": "Lee Sin",
+          "3-7": "Ryze",
+          "4-7": "Kalista",
+          "1-2": "Nunu",
+          "1-5": "Gragas",
+          "4-6": "Brand",
+          "4-5": "Warwick"
+        },
+        "3-6": {
+          "3-7": "Ryze",
+          "4-7": "Kalista",
+          "1-2": "Nunu",
+          "4-6": "Brand",
+          "4-5": "Warwick",
+          "2-4": "Gragas",
+          "1-1": "Lee Sin"
+        },
+        "3-7": {
+          "1-1": "Sett",
+          "4-4": "Ryze",
+          "1-3": "Nunu",
+          "1-2": "Nunu",
+          "4-1": "Kalista",
+          "4-2": "Brand",
+          "1-4": "Gragas"
+        },
+        "4-1": {
+          "4-3": "Ryze",
+          "4-1": "Kalista",
+          "4-2": "Brand",
+          "1-4": "Gragas",
+          "1-2": "Nunu"
+        },
+        "4-2": {
+          "4-4": "Ryze",
+          "4-1": "Kalista",
+          "4-2": "Brand",
+          "1-2": "Nunu",
+          "1-3": "Nunu",
+          "1-4": "Gragas"
+        },
+        "4-3": {
+          "4-1": "Kalista",
+          "4-3": "Ryze",
+          "1-3": "Gragas",
+          "4-2": "Brand",
+          "1-2": "Nunu"
+        },
+        "4-5": {
+          "4-1": "Kalista",
+          "4-3": "Ryze",
+          "4-2": "Brand",
+          "1-2": "Nunu",
+          "1-3": "Nunu",
+          "1-4": "Gragas"
+        },
+        "4-6": {
+          "4-1": "Kalista",
+          "1-1": "Sett",
+          "4-3": "Ryze",
+          "1-2": "Nunu",
+          "1-3": "Nunu",
+          "4-2": "Brand",
+          "2-3": "Gragas"
+        },
+        "4-7": {
+          "4-1": "Kalista",
+          "1-2": "Nunu",
+          "1-3": "Nunu",
+          "2-3": "Gragas",
+          "3-3": "Brand",
+          "4-4": "Ryze"
+        },
+        "5-1": {
+          "1-3": "Nunu",
+          "1-2": "Nunu",
+          "4-7": "Yasuo",
+          "4-4": "Ryze",
+          "1-5": "Mordekaiser",
+          "4-2": "Kalista",
+          "3-3": "Brand"
+        },
+        "5-2": {
+          "3-2": "Thresh",
+          "3-1": "Thresh",
+          "4-1": "Ryze",
+          "4-7": "Yasuo",
+          "1-1": "Lee Sin",
+          "1-4": "Mordekaiser",
+          "4-3": "Lulu"
+        }
+      }
     }
   ]
 }
