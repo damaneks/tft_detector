@@ -7778,6 +7778,146 @@
           "2-5": "Poppy"
         }
       }
+    },
+    {
+      "id": 47,
+      "player": "korpick",
+      "place_ended": "8",
+      "date": "2021-06-03",
+      "region": "Asia",
+      "rounds": {
+        "1-3": {
+          "1-4": "Leona",
+          "1-5": "Aatrox"
+        },
+        "1-4": {
+          "4-6": "Poppy",
+          "4-7": "Vayne",
+          "3-7": "Leona"
+        },
+        "2-1": {
+          "4-6": "Nautilus",
+          "3-7": "Leona",
+          "4-7": "Vayne"
+        },
+        "2-2": {
+          "4-7": "Vayne",
+          "4-6": "Nautilus",
+          "3-7": "Leona"
+        },
+        "2-3": {
+          "4-7": "Vayne",
+          "4-6": "Hecarim",
+          "4-5": "Nautilus",
+          "3-7": "Leona"
+        },
+        "2-5": {
+          "4-7": "Vayne",
+          "3-7": "Nautilus",
+          "4-5": "Aatrox",
+          "4-6": "Varus",
+          "3-6": "Leona"
+        },
+        "2-7": {
+          "3-6": "Leona",
+          "4-5": "Aatrox",
+          "4-6": "Varus",
+          "3-7": "Nautilus",
+          "4-7": "Vayne"
+        },
+        "3-1": {
+          "4-7": "Vayne",
+          "3-7": "Nautilus",
+          "4-5": "Aatrox",
+          "4-6": "Varus",
+          "3-6": "Leona"
+        },
+        "3-2": {
+          "4-7": "Vayne",
+          "4-4": "Mordekaiser",
+          "4-6": "Varus",
+          "3-7": "Nautilus",
+          "4-5": "Aatrox",
+          "3-6": "Leona"
+        },
+        "3-5": {
+          "3-6": "Leona",
+          "4-7": "Vayne",
+          "4-5": "Aatrox",
+          "4-6": "Ziggs",
+          "3-2": "Ziggs",
+          "3-7": "Nautilus"
+        },
+        "3-6": {
+          "3-6": "Leona",
+          "4-5": "Aatrox",
+          "4-6": "Ziggs",
+          "4-7": "Vayne",
+          "3-7": "Nautilus"
+        },
+        "3-7": {
+          "4-6": "Varus",
+          "4-4": "Thresh",
+          "4-5": "Aatrox",
+          "3-6": "Poppy",
+          "4-7": "Vayne",
+          "3-5": "Nautilus",
+          "3-7": "Leona"
+        },
+        "4-1": {
+          "4-5": "Varus",
+          "4-6": "Vayne",
+          "4-7": "Lux",
+          "4-4": "Vel'Koz",
+          "4-3": "Aatrox",
+          "3-6": "Leona"
+        },
+        "4-2": {
+          "4-3": "Aatrox",
+          "4-5": "Varus",
+          "4-7": "Lux",
+          "2-4": "Nautilus",
+          "4-4": "Rell",
+          "3-6": "Leona",
+          "4-2": "Ivern"
+        },
+        "4-3": {
+          "4-6": "Kennen",
+          "4-3": "Aatrox",
+          "4-5": "Varus",
+          "4-7": "Lux",
+          "1-5": "Nautilus",
+          "3-6": "Leona",
+          "4-4": "Rell",
+          "4-2": "Ivern"
+        },
+        "4-5": {
+          "4-5": "Varus",
+          "2-4": "Nautilus",
+          "4-7": "Poppy",
+          "4-4": "Rell",
+          "3-6": "Leona"
+        },
+        "4-7": {
+          "4-7": "Karma",
+          "3-4": "Syndra",
+          "4-6": "Teemo",
+          "2-5": "Kha'Zix",
+          "4-5": "Ivern",
+          "4-2": "Garen",
+          "4-3": "Taric",
+          "3-6": "Leona"
+        },
+        "5-1": {
+          "1-5": "Nautilus",
+          "2-4": "Garen",
+          "4-5": "Ivern",
+          "4-3": "Thresh",
+          "3-6": "Leona",
+          "4-4": "Karma",
+          "4-7": "Syndra"
+        }
+      }
     }
   ]
 }
