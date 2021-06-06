@@ -8556,6 +8556,208 @@
           "2-7": "Ivern"
         }
       }
+    },
+    {
+      "id": 53,
+      "player": "cosmotv",
+      "place_ended": "2",
+      "date": "2021-05-31",
+      "region": "Asia",
+      "rounds": {
+        "2-1": {
+          "4-1": "Poppy",
+          "2-2": "Warwick",
+          "4-2": "Kled",
+          "3-1": "Brand"
+        },
+        "2-2": {
+          "4-1": "Poppy",
+          "2-1": "Warwick",
+          "4-2": "Kled",
+          "3-1": "Brand"
+        },
+        "2-3": {
+          "3-1": "Sejuani",
+          "4-1": "Kled",
+          "4-2": "Warwick"
+        },
+        "2-5": {
+          "4-6": "Kled",
+          "4-7": "Brand",
+          "3-7": "Lee Sin",
+          "4-2": "Sejuani"
+        },
+        "2-6": {
+          "4-3": "Sejuani",
+          "2-2": "Sejuani",
+          "4-6": "Kled",
+          "3-1": "Brand"
+        },
+        "2-7": {
+          "4-2": "Kled",
+          "4-5": "Sejuani",
+          "3-1": "Brand"
+        },
+        "3-1": {
+          "4-1": "Kled",
+          "3-1": "Brand",
+          "4-3": "Sejuani",
+          "2-2": "Lee Sin"
+        },
+        "3-2": {
+          "4-1": "Brand",
+          "4-4": "Kled",
+          "3-2": "Nautilus",
+          "3-3": "Sejuani",
+          "4-3": "Sejuani",
+          "4-2": "Kalista"
+        },
+        "3-3": {
+          "4-3": "Nunu",
+          "4-4": "Kled",
+          "4-2": "Kalista",
+          "3-3": "Sejuani",
+          "4-1": "Brand",
+          "3-2": "Nautilus"
+        },
+        "3-5": {
+          "3-2": "Nautilus",
+          "4-3": "Warwick",
+          "1-3": "Nunu",
+          "4-2": "Brand",
+          "4-1": "Brand",
+          "2-1": "Kalista"
+        },
+        "3-7": {
+          "3-2": "Nautilus",
+          "4-3": "Warwick",
+          "2-1": "Kalista",
+          "3-3": "Nunu",
+          "4-1": "Brand"
+        },
+        "4-1": {
+          "2-1": "Kalista",
+          "4-1": "Brand",
+          "4-5": "Poppy",
+          "4-4": "Lulu",
+          "3-2": "Nautilus",
+          "3-3": "Nunu",
+          "4-3": "Warwick",
+          "4-2": "Ryze"
+        },
+        "4-3": {
+          "2-1": "Brand",
+          "4-1": "Brand",
+          "4-2": "Brand",
+          "3-2": "Nautilus",
+          "4-4": "Ziggs",
+          "4-7": "Ziggs",
+          "3-3": "Nunu"
+        },
+        "4-5": {
+          "4-3": "Lulu",
+          "4-7": "Heimerdinger",
+          "4-4": "Leona",
+          "4-1": "Kalista",
+          "3-7": "Nautilus",
+          "4-6": "Brand",
+          "4-5": "Brand"
+        },
+        "4-7": {
+          "4-7": "Heimerdinger",
+          "3-5": "Lulu",
+          "4-3": "Lulu",
+          "4-4": "Leona",
+          "4-5": "Syndra",
+          "3-7": "Nautilus",
+          "4-2": "Lux"
+        },
+        "5-1": {
+          "4-4": "Lulu",
+          "3-6": "Ryze",
+          "4-7": "Heimerdinger",
+          "4-6": "Karma",
+          "4-3": "Leona",
+          "3-7": "Nautilus",
+          "4-5": "Syndra",
+          "1-2": "Rell"
+        },
+        "5-2": {
+          "3-6": "Ryze",
+          "4-7": "Heimerdinger",
+          "4-5": "Syndra",
+          "3-5": "Syndra",
+          "2-6": "Nautilus",
+          "1-4": "Garen",
+          "4-6": "Karma"
+        },
+        "5-3": {
+          "4-4": "Teemo",
+          "4-7": "Karma",
+          "2-3": "Garen",
+          "3-5": "Syndra",
+          "4-6": "Heimerdinger",
+          "4-3": "Ivern",
+          "2-6": "Nautilus",
+          "3-7": "Ryze"
+        },
+        "5-5": {
+          "1-4": "Garen",
+          "4-6": "Heimerdinger",
+          "3-4": "Syndra",
+          "4-3": "Ivern",
+          "4-7": "Karma",
+          "4-5": "Teemo"
+        },
+        "5-6": {
+          "2-7": "Ivern",
+          "2-4": "Garen",
+          "3-7": "Kindred",
+          "3-4": "Syndra",
+          "4-5": "Teemo",
+          "4-1": "Rell",
+          "4-6": "Heimerdinger",
+          "3-6": "Ryze"
+        },
+        "6-1": {
+          "4-3": "Ryze",
+          "2-2": "Garen",
+          "2-1": "Rell",
+          "3-6": "Syndra",
+          "3-7": "Kindred",
+          "1-7": "Ivern",
+          "4-7": "Karma"
+        },
+        "6-2": {
+          "4-4": "Ryze",
+          "2-1": "Rell",
+          "2-3": "Garen",
+          "3-6": "Syndra",
+          "3-7": "Kindred",
+          "1-7": "Ivern",
+          "4-5": "Ivern",
+          "4-1": "Lux"
+        },
+        "6-3": {
+          "3-6": "Ryze",
+          "1-4": "Syndra",
+          "2-3": "Syndra",
+          "2-6": "Garen",
+          "4-1": "Lux",
+          "3-7": "Kindred",
+          "4-5": "Ivern",
+          "4-4": "Ivern"
+        },
+        "6-6": {
+          "2-7": "Karma",
+          "3-6": "Garen",
+          "2-6": "Ryze",
+          "3-7": "Kindred",
+          "4-1": "Lux",
+          "4-7": "Ivern",
+          "2-3": "Syndra"
+        }
+      }
     }
   ]
 }
