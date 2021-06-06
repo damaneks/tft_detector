@@ -7199,6 +7199,185 @@
           "1-6": "Nunu"
         }
       }
+    },
+    {
+      "id": 43,
+      "player": "korpick",
+      "place_ended": "2",
+      "date": "2021-06-03",
+      "region": "Asia",
+      "rounds": {
+        "1-3": {
+          "1-5": "Aatrox",
+          "1-4": "Leona"
+        },
+        "1-4": {
+          "1-7": "Aatrox",
+          "1-6": "Leona",
+          "4-7": "Varus"
+        },
+        "2-2": {
+          "3-7": "Poppy",
+          "4-6": "Kled",
+          "4-7": "Ziggs",
+          "4-5": "Nautilus"
+        },
+        "2-3": {
+          "4-6": "Kled",
+          "4-7": "Ziggs",
+          "3-7": "Poppy",
+          "4-5": "Nautilus"
+        },
+        "2-5": {
+          "4-6": "Brand",
+          "4-7": "Ziggs",
+          "2-4": "Nautilus",
+          "4-4": "Kled",
+          "3-7": "Poppy"
+        },
+        "2-6": {
+          "4-7": "Ziggs",
+          "1-5": "Nautilus",
+          "4-6": "Brand",
+          "4-4": "Kled",
+          "3-7": "Poppy"
+        },
+        "2-7": {
+          "4-7": "Ziggs",
+          "4-6": "Brand",
+          "3-6": "Kennen",
+          "3-7": "Poppy",
+          "2-5": "Nautilus"
+        },
+        "3-2": {
+          "4-6": "Ziggs",
+          "2-4": "Nautilus",
+          "3-7": "Kennen",
+          "4-7": "Brand",
+          "4-5": "Viktor",
+          "3-6": "Poppy"
+        },
+        "3-3": {
+          "3-6": "Poppy",
+          "4-6": "Ziggs",
+          "4-7": "Brand",
+          "3-7": "Kennen"
+        },
+        "3-5": {
+          "4-6": "Ziggs",
+          "4-3": "Ziggs",
+          "3-7": "Kennen",
+          "4-4": "Kled",
+          "1-4": "Nautilus",
+          "4-5": "Lulu",
+          "4-7": "Brand",
+          "3-6": "Poppy"
+        },
+        "3-7": {
+          "4-5": "Lulu",
+          "4-6": "Ziggs",
+          "3-7": "Kennen",
+          "3-6": "Poppy",
+          "4-7": "Brand",
+          "4-4": "Kled",
+          "2-4": "Kha'Zix"
+        },
+        "4-2": {
+          "4-7": "Lulu",
+          "4-6": "Ziggs",
+          "4-4": "Kled",
+          "3-7": "Poppy",
+          "4-5": "Nautilus"
+        },
+        "4-3": {
+          "4-6": "Ziggs",
+          "4-3": "Rell",
+          "4-7": "Lulu",
+          "3-7": "Poppy",
+          "4-4": "Kled",
+          "4-5": "Nautilus"
+        },
+        "4-7": {
+          "4-6": "Teemo",
+          "4-7": "Lulu",
+          "4-3": "Ziggs",
+          "4-4": "Kled",
+          "3-7": "Poppy",
+          "4-2": "Rell"
+        },
+        "5-1": {
+          "1-5": "Kennen",
+          "4-4": "Kled",
+          "4-5": "Nautilus",
+          "3-7": "Poppy",
+          "4-3": "Rell",
+          "1-3": "Garen",
+          "4-6": "Teemo"
+        },
+        "5-2": {
+          "4-7": "Karma",
+          "2-4": "Garen",
+          "4-6": "Teemo",
+          "4-4": "Kled",
+          "4-5": "Nautilus",
+          "4-3": "Rell",
+          "3-7": "Lulu",
+          "1-6": "Kennen"
+        },
+        "5-3": {
+          "4-7": "Karma",
+          "4-3": "Syndra",
+          "3-6": "Kennen",
+          "1-4": "Ziggs",
+          "4-4": "Kled",
+          "3-7": "Lulu",
+          "4-5": "Nautilus"
+        },
+        "5-5": {
+          "1-4": "Garen",
+          "3-6": "Kennen",
+          "4-4": "Kled",
+          "4-6": "Karma",
+          "4-5": "Lulu",
+          "4-3": "Rell",
+          "4-7": "Teemo",
+          "3-7": "Nautilus"
+        },
+        "6-1": {
+          "4-7": "Karma",
+          "1-4": "Garen",
+          "4-4": "Kled",
+          "4-3": "Rell",
+          "3-7": "Nautilus"
+        },
+        "6-2": {
+          "4-6": "Teemo",
+          "1-4": "Garen",
+          "4-7": "Karma",
+          "4-5": "Lulu",
+          "4-4": "Kled",
+          "3-7": "Nautilus",
+          "4-3": "Rell",
+          "3-5": "Kennen"
+        },
+        "6-3": {
+          "3-6": "Garen",
+          "4-6": "Teemo",
+          "4-4": "Kled",
+          "2-4": "Nautilus",
+          "4-7": "Lulu",
+          "3-3": "Rell"
+        },
+        "6-5": {
+          "3-7": "Rell",
+          "4-6": "Teemo",
+          "3-6": "Nautilus",
+          "4-4": "Garen",
+          "4-5": "Karma",
+          "4-7": "Lulu",
+          "4-1": "Brand"
+        }
+      }
     }
   ]
 }
