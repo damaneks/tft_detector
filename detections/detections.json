@@ -7673,6 +7673,111 @@
           "2-4": "Taric"
         }
       }
+    },
+    {
+      "id": 46,
+      "player": "korpick",
+      "place_ended": "8",
+      "date": "2021-06-03",
+      "region": "Asia",
+      "rounds": {
+        "1-3": {
+          "2-6": "Kled",
+          "1-5": "Poppy"
+        },
+        "1-4": {
+          "1-5": "Poppy",
+          "2-4": "Poppy",
+          "2-6": "Kled"
+        },
+        "2-1": {
+          "3-5": "Kennen",
+          "1-5": "Poppy",
+          "4-7": "Kled"
+        },
+        "2-2": {
+          "2-6": "Thresh",
+          "2-7": "Kennen",
+          "4-7": "Kled"
+        },
+        "2-3": {
+          "2-7": "Kennen",
+          "2-6": "Thresh",
+          "4-7": "Kled"
+        },
+        "2-5": {
+          "2-7": "Kennen",
+          "2-6": "Thresh",
+          "4-7": "Kalista",
+          "4-5": "Kled"
+        },
+        "2-7": {
+          "2-7": "Kennen",
+          "1-7": "Poppy",
+          "2-6": "Thresh",
+          "4-7": "Kalista",
+          "4-5": "Kled"
+        },
+        "3-2": {
+          "1-6": "Poppy",
+          "2-6": "Kennen",
+          "4-6": "Kled",
+          "4-7": "Kalista",
+          "2-7": "Thresh"
+        },
+        "3-3": {
+          "3-7": "Ryze",
+          "4-6": "Kled",
+          "4-7": "Kalista",
+          "1-6": "Poppy"
+        },
+        "3-6": {
+          "2-6": "Kennen",
+          "4-3": "Kled",
+          "4-6": "Ziggs",
+          "4-7": "Kalista",
+          "1-6": "Poppy"
+        },
+        "3-7": {
+          "2-6": "Kennen",
+          "3-7": "Lulu",
+          "1-7": "Taric",
+          "4-7": "Nautilus",
+          "4-6": "Ziggs",
+          "1-6": "Poppy",
+          "4-5": "Kled"
+        },
+        "4-1": {
+          "3-7": "Lulu",
+          "1-7": "Taric",
+          "4-5": "Kled",
+          "1-5": "Poppy",
+          "4-6": "Ziggs"
+        },
+        "4-2": {
+          "4-6": "Karma",
+          "2-3": "Poppy",
+          "3-7": "Nautilus"
+        },
+        "4-3": {
+          "2-5": "Kennen",
+          "4-6": "Karma",
+          "3-7": "Nautilus",
+          "4-7": "Thresh",
+          "1-4": "Poppy",
+          "3-6": "Taric"
+        },
+        "4-5": {
+          "4-6": "Karma",
+          "2-4": "Garen",
+          "4-4": "Ziggs",
+          "3-6": "Taric",
+          "4-5": "Lulu",
+          "4-7": "Thresh",
+          "3-7": "Nautilus",
+          "2-5": "Poppy"
+        }
+      }
     }
   ]
 }
