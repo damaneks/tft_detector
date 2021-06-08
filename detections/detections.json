@@ -11673,6 +11673,107 @@
           "2-3": "Gragas"
         }
       }
+    },
+    {
+      "id": 74,
+      "player": "Kiyoon",
+      "place_ended": "7",
+      "date": "2021-05-31",
+      "region": "America",
+      "rounds": {
+        "1-3": {
+          "3-1": "Brand"
+        },
+        "1-4": {
+          "4-4": "Leona",
+          "3-1": "Kalista"
+        },
+        "2-1": {
+          "4-1": "Ziggs",
+          "3-1": "Viktor",
+          "1-2": "Poppy",
+          "1-3": "Leona"
+        },
+        "2-2": {
+          "4-6": "Poppy",
+          "4-7": "Ziggs",
+          "3-7": "Ziggs",
+          "1-5": "Leona"
+        },
+        "2-5": {
+          "3-7": "Kennen",
+          "4-7": "Ziggs",
+          "1-4": "Poppy",
+          "4-6": "Kled"
+        },
+        "2-6": {
+          "4-7": "Ziggs",
+          "3-7": "Kennen",
+          "1-5": "Poppy",
+          "4-6": "Kled",
+          "1-6": "Kled"
+        },
+        "3-1": {
+          "4-7": "Ziggs",
+          "1-5": "Hecarim",
+          "4-6": "Brand",
+          "3-7": "Kennen",
+          "1-4": "Kled"
+        },
+        "3-2": {
+          "4-7": "Ziggs",
+          "3-7": "Kennen",
+          "4-6": "Brand",
+          "4-5": "Sejuani"
+        },
+        "3-3": {
+          "4-7": "Ziggs",
+          "3-7": "Kennen",
+          "4-6": "Brand",
+          "4-5": "Sejuani",
+          "1-4": "Kled",
+          "1-5": "Hecarim"
+        },
+        "3-5": {
+          "2-4": "Sejuani",
+          "3-7": "Kennen",
+          "4-7": "Ziggs",
+          "4-5": "Poppy",
+          "4-6": "Brand",
+          "3-6": "Hecarim",
+          "2-5": "Garen"
+        },
+        "4-3": {
+          "1-5": "Kennen",
+          "2-5": "Sejuani",
+          "2-2": "Rell",
+          "4-5": "Hecarim",
+          "1-3": "Kled"
+        },
+        "4-5": {
+          "2-5": "Sejuani",
+          "4-6": "Hecarim",
+          "1-2": "Rell",
+          "3-7": "Poppy",
+          "1-3": "Kled"
+        },
+        "4-6": {
+          "2-2": "Rell",
+          "4-6": "Lulu",
+          "4-7": "Teemo",
+          "3-7": "Poppy",
+          "3-6": "Kled",
+          "1-6": "Kennen"
+        },
+        "5-2": {
+          "3-2": "Kindred",
+          "4-2": "Lulu",
+          "4-1": "Teemo",
+          "1-3": "Poppy",
+          "1-6": "Rell",
+          "1-2": "Kennen"
+        }
+      }
     }
   ]
 }
