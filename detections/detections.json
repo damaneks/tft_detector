@@ -13544,6 +13544,158 @@
           "2-5": "Rell"
         }
       }
+    },
+    {
+      "id": 88,
+      "player": "bebe872",
+      "place_ended": "6",
+      "date": "2021-06-01",
+      "region": "Asia",
+      "rounds": {
+        "1-3": {
+          "4-6": "Ziggs",
+          "4-7": "Vayne"
+        },
+        "1-4": {
+          "4-7": "Vayne",
+          "4-1": "Varus",
+          "1-4": "Gragas"
+        },
+        "2-1": {
+          "4-7": "Vayne",
+          "1-4": "Gragas",
+          "4-1": "Varus",
+          "4-6": "Warwick"
+        },
+        "2-2": {
+          "4-7": "Vayne",
+          "1-7": "Gragas",
+          "4-6": "Warwick",
+          "4-5": "Thresh"
+        },
+        "2-3": {
+          "4-7": "Vayne",
+          "4-5": "Thresh",
+          "1-7": "Gragas",
+          "4-6": "Warwick"
+        },
+        "2-5": {
+          "4-7": "Vayne",
+          "4-6": "Warwick",
+          "1-7": "Gragas",
+          "4-5": "Thresh"
+        },
+        "2-6": {
+          "4-7": "Vayne",
+          "4-6": "Thresh",
+          "3-5": "Hecarim"
+        },
+        "2-7": {
+          "4-7": "Vayne",
+          "1-7": "Warwick",
+          "2-6": "Warwick",
+          "2-7": "Warwick",
+          "1-6": "Hecarim"
+        },
+        "3-1": {
+          "4-6": "Warwick",
+          "4-3": "Kled",
+          "3-5": "Leona",
+          "1-4": "Hecarim"
+        },
+        "3-2": {
+          "4-5": "Thresh",
+          "3-2": "Syndra",
+          "4-4": "Kled",
+          "4-6": "Leona",
+          "1-4": "Hecarim"
+        },
+        "3-3": {
+          "4-6": "Thresh",
+          "3-2": "Syndra",
+          "2-4": "Hecarim",
+          "3-7": "Leona"
+        },
+        "3-7": {
+          "3-2": "Syndra",
+          "1-4": "Hecarim",
+          "4-5": "Sejuani",
+          "4-7": "Leona",
+          "4-2": "Kled",
+          "4-4": "Thresh",
+          "4-6": "Ivern"
+        },
+        "4-1": {
+          "4-2": "Karma",
+          "1-4": "Hecarim",
+          "4-7": "Lux",
+          "4-6": "Ivern",
+          "4-3": "Kled"
+        },
+        "4-2": {
+          "1-4": "Hecarim",
+          "3-6": "Syndra",
+          "4-7": "Lux",
+          "4-5": "Sejuani",
+          "4-3": "Kled",
+          "4-2": "Ivern"
+        },
+        "4-3": {
+          "4-1": "Lux",
+          "3-6": "Syndra",
+          "4-7": "Karma",
+          "2-4": "Hecarim",
+          "4-3": "Kled",
+          "4-5": "Sejuani",
+          "4-2": "Ivern"
+        },
+        "4-6": {
+          "4-3": "Kled",
+          "1-4": "Hecarim",
+          "4-6": "Soraka",
+          "4-2": "Ivern",
+          "4-7": "Karma",
+          "4-1": "Lux"
+        },
+        "4-7": {
+          "4-5": "Sejuani",
+          "2-4": "Hecarim",
+          "4-2": "Ivern",
+          "4-6": "Soraka",
+          "4-3": "Kled",
+          "4-1": "Nidalee"
+        },
+        "5-1": {
+          "3-3": "Syndra",
+          "4-1": "Ivern",
+          "2-4": "Hecarim",
+          "4-5": "Sejuani",
+          "3-2": "Rell",
+          "1-4": "Volibear",
+          "4-6": "Riven"
+        },
+        "5-2": {
+          "4-6": "Karma",
+          "2-4": "Hecarim",
+          "4-1": "Ivern",
+          "4-5": "Sejuani",
+          "3-2": "Rell"
+        },
+        "5-3": {
+          "2-3": "Rell",
+          "4-2": "Ivern",
+          "4-3": "Heimerdinger",
+          "4-6": "Karma"
+        },
+        "5-5": {
+          "4-6": "Karma",
+          "4-5": "Heimerdinger",
+          "4-7": "Heimerdinger",
+          "2-2": "Rell",
+          "3-6": "Ivern",
+          "3-7": "Syndra"
+        }
+      }
     }
   ]
 }
