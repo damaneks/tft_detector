@@ -12269,6 +12269,106 @@
           "1-6": "Hecarim"
         }
       }
+    },
+    {
+      "id": 80,
+      "player": "Kiyoon",
+      "place_ended": "1",
+      "date": "2021-05-31",
+      "region": "America",
+      "rounds": {
+        "1-2": {},
+        "1-3": {
+          "1-2": "Udyr"
+        },
+        "1-4": {
+          "1-2": "Udyr",
+          "1-3": "Gragas"
+        },
+        "2-3": {
+          "1-2": "Nocturne",
+          "3-3": "Katarina",
+          "1-3": "Gragas"
+        },
+        "2-5": {
+          "1-3": "Nocturne",
+          "1-4": "Nunu",
+          "4-1": "Kha'Zix"
+        },
+        "3-3": {
+          "4-2": "Katarina",
+          "4-6": "Leblanc",
+          "2-3": "Gragas",
+          "1-5": "Warwick",
+          "3-4": "Kha'Zix"
+        },
+        "3-5": {
+          "1-4": "Nocturne",
+          "4-6": "Leblanc",
+          "4-2": "Katarina",
+          "1-3": "Gragas",
+          "1-5": "Warwick",
+          "3-1": "Kha'Zix"
+        },
+        "3-6": {
+          "1-4": "Nocturne",
+          "4-6": "Leblanc",
+          "4-4": "Katarina",
+          "1-5": "Warwick",
+          "3-1": "Kha'Zix",
+          "2-3": "Gragas"
+        },
+        "3-7": {
+          "1-4": "Warwick",
+          "2-2": "Gragas",
+          "3-1": "Kha'Zix",
+          "4-5": "Katarina"
+        },
+        "4-3": {
+          "4-6": "Leblanc",
+          "4-3": "Katarina",
+          "1-5": "Warwick",
+          "3-1": "Kha'Zix",
+          "2-3": "Gragas"
+        },
+        "4-5": {
+          "4-6": "Zyra",
+          "4-4": "Soraka",
+          "4-1": "Vel'Koz",
+          "4-3": "Katarina",
+          "1-5": "Volibear",
+          "1-3": "Gragas"
+        },
+        "5-1": {
+          "4-4": "Soraka",
+          "4-6": "Leblanc",
+          "2-3": "Katarina",
+          "1-5": "Volibear",
+          "4-3": "Diana",
+          "1-6": "Kha'Zix"
+        },
+        "5-5": {
+          "1-3": "Ivern",
+          "2-5": "Aatrox",
+          "1-5": "Volibear",
+          "1-4": "Nocturne",
+          "4-6": "Diana"
+        },
+        "5-6": {
+          "1-3": "Ivern",
+          "2-5": "Ivern",
+          "1-5": "Volibear",
+          "1-4": "Nocturne",
+          "4-6": "Diana"
+        },
+        "6-1": {
+          "3-2": "Diana",
+          "4-6": "Diana",
+          "1-5": "Volibear",
+          "1-3": "Ivern",
+          "1-4": "Nocturne"
+        }
+      }
     }
   ]
 }
