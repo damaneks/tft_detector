@@ -11889,6 +11889,88 @@
           "2-4": "Warwick"
         }
       }
+    },
+    {
+      "id": 76,
+      "player": "Kiyoon",
+      "place_ended": "8",
+      "date": "2021-05-31",
+      "region": "America",
+      "rounds": {
+        "1-3": {
+          "1-3": "Warwick"
+        },
+        "1-4": {
+          "1-2": "Gragas",
+          "1-3": "Warwick"
+        },
+        "2-1": {
+          "1-3": "Warwick",
+          "1-2": "Warwick",
+          "1-4": "Gragas"
+        },
+        "2-2": {
+          "1-1": "Warwick",
+          "1-3": "Warwick",
+          "3-1": "Kalista"
+        },
+        "2-3": {
+          "1-2": "Warwick",
+          "3-5": "Warwick",
+          "3-1": "Kalista"
+        },
+        "2-5": {
+          "3-1": "Kha'Zix",
+          "1-2": "Warwick",
+          "1-3": "Gragas",
+          "1-4": "Gragas"
+        },
+        "2-6": {
+          "1-1": "Warwick",
+          "1-2": "Warwick",
+          "1-4": "Gragas",
+          "1-3": "Gragas",
+          "3-1": "Kha'Zix"
+        },
+        "3-1": {
+          "1-7": "Warwick",
+          "1-4": "Gragas",
+          "1-5": "Gragas",
+          "3-1": "Kha'Zix",
+          "1-6": "Nunu"
+        },
+        "3-2": {
+          "1-5": "Sett",
+          "4-5": "Udyr",
+          "1-6": "Nunu",
+          "4-6": "Ashe",
+          "2-3": "Gragas"
+        },
+        "3-3": {
+          "1-6": "Sett",
+          "4-7": "Zyra",
+          "1-4": "Udyr",
+          "1-7": "Nunu",
+          "2-4": "Gragas",
+          "4-6": "Ashe"
+        },
+        "4-5": {
+          "1-3": "Nunu",
+          "1-2": "Nunu",
+          "4-7": "Ashe",
+          "1-4": "Warwick",
+          "2-4": "Gragas",
+          "4-1": "Zyra"
+        },
+        "5-1": {
+          "3-2": "Nunu",
+          "1-3": "Nunu",
+          "1-2": "Nunu",
+          "4-1": "Ashe",
+          "1-4": "Warwick",
+          "1-1": "Brand"
+        }
+      }
     }
   ]
 }
