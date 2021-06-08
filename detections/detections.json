@@ -12541,6 +12541,146 @@
           "1-4": "Morgana"
         }
       }
+    },
+    {
+      "id": 82,
+      "player": "NoobOwl",
+      "place_ended": "5",
+      "date": "2021-05-30",
+      "region": "America",
+      "rounds": {
+        "1-3": {
+          "1-3": "Poppy",
+          "2-1": "Kalista"
+        },
+        "2-1": {
+          "1-1": "Sett",
+          "1-3": "Nunu",
+          "1-2": "Gragas",
+          "1-4": "Warwick"
+        },
+        "2-2": {
+          "1-1": "Sett",
+          "1-3": "Warwick",
+          "1-2": "Nunu",
+          "1-4": "Gragas"
+        },
+        "2-5": {
+          "1-7": "Sett",
+          "1-5": "Sett",
+          "1-6": "Nunu",
+          "1-3": "Warwick",
+          "1-4": "Gragas"
+        },
+        "2-6": {
+          "1-7": "Sett",
+          "1-5": "Riven",
+          "1-6": "Nunu",
+          "1-3": "Warwick",
+          "1-4": "Gragas"
+        },
+        "2-7": {
+          "1-7": "Sett",
+          "1-6": "Nunu",
+          "1-4": "Gragas",
+          "1-5": "Warwick",
+          "1-3": "Warwick"
+        },
+        "3-1": {
+          "1-7": "Sett",
+          "1-6": "Nunu",
+          "1-3": "Gragas",
+          "1-4": "Warwick",
+          "1-5": "Warwick"
+        },
+        "3-2": {
+          "1-7": "Sett",
+          "4-7": "Ashe",
+          "1-3": "Warwick",
+          "1-4": "Gragas",
+          "1-6": "Nunu",
+          "1-5": "Udyr"
+        },
+        "3-3": {
+          "1-7": "Sett",
+          "1-5": "Udyr",
+          "4-7": "Ashe",
+          "1-4": "Gragas",
+          "1-3": "Warwick",
+          "1-6": "Nunu"
+        },
+        "3-5": {
+          "1-1": "Sett",
+          "4-7": "Ashe",
+          "4-1": "Zyra",
+          "1-3": "Gragas",
+          "1-2": "Nunu",
+          "1-4": "Warwick"
+        },
+        "3-7": {
+          "1-1": "Sett",
+          "1-3": "Gragas",
+          "1-2": "Nunu",
+          "1-4": "Warwick",
+          "4-1": "Zyra",
+          "4-7": "Ashe"
+        },
+        "4-1": {
+          "1-1": "Sett",
+          "4-7": "Ashe",
+          "1-2": "Nunu",
+          "4-1": "Zyra",
+          "1-4": "Warwick",
+          "1-3": "Gragas"
+        },
+        "4-2": {
+          "1-3": "Gragas",
+          "4-7": "Ashe",
+          "1-2": "Nunu",
+          "4-1": "Zyra",
+          "1-4": "Warwick",
+          "1-1": "Sett"
+        },
+        "4-3": {
+          "4-7": "Ashe",
+          "1-3": "Gragas",
+          "1-2": "Nunu",
+          "1-4": "Warwick",
+          "4-1": "Zyra",
+          "1-1": "Sett"
+        },
+        "4-5": {
+          "4-7": "Kalista",
+          "1-2": "Nunu",
+          "4-1": "Zyra",
+          "1-3": "Warwick",
+          "1-1": "Sett"
+        },
+        "4-7": {
+          "1-4": "Volibear",
+          "1-7": "Sett",
+          "4-7": "Ashe",
+          "1-6": "Nunu",
+          "1-5": "Warwick",
+          "4-1": "Zyra"
+        },
+        "5-1": {
+          "1-1": "Sett",
+          "1-3": "Warwick",
+          "4-7": "Ashe",
+          "1-2": "Nunu",
+          "4-1": "Zyra"
+        },
+        "5-2": {
+          "1-7": "Sett",
+          "1-4": "Volibear",
+          "1-5": "Warwick",
+          "4-7": "Ashe",
+          "1-6": "Nunu",
+          "4-2": "Nunu",
+          "4-1": "Zyra"
+        }
+      }
     }
   ]
 }
