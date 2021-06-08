@@ -13696,6 +13696,114 @@
           "3-7": "Syndra"
         }
       }
+    },
+    {
+      "id": 89,
+      "player": "korpick",
+      "place_ended": "8",
+      "date": "2021-06-03",
+      "region": "Asia",
+      "rounds": {
+        "1-3": {
+          "4-4": "Lulu",
+          "4-7": "Zyra"
+        },
+        "1-4": {
+          "4-6": "Lulu",
+          "4-7": "Ziggs",
+          "2-5": "Poppy"
+        },
+        "2-2": {
+          "4-6": "Kalista",
+          "4-7": "Kalista",
+          "2-5": "Aatrox"
+        },
+        "2-5": {
+          "3-6": "Aatrox",
+          "3-7": "Nautilus"
+        },
+        "2-6": {
+          "4-7": "Kalista",
+          "3-7": "Nautilus",
+          "3-6": "Leona",
+          "4-6": "Aatrox"
+        },
+        "2-7": {
+          "3-7": "Thresh",
+          "4-7": "Kalista",
+          "3-6": "Nautilus",
+          "4-6": "Aatrox"
+        },
+        "3-1": {
+          "4-6": "Aatrox",
+          "4-5": "Poppy",
+          "3-6": "Nautilus",
+          "4-7": "Kalista"
+        },
+        "3-2": {
+          "3-7": "Thresh",
+          "4-7": "Kalista",
+          "4-4": "Leona",
+          "4-5": "Poppy",
+          "4-6": "Aatrox",
+          "3-6": "Nautilus"
+        },
+        "3-5": {
+          "3-7": "Thresh",
+          "4-7": "Lux",
+          "4-4": "Leona",
+          "2-5": "Nautilus"
+        },
+        "4-1": {
+          "4-7": "Lux",
+          "1-4": "Taric",
+          "2-7": "Aatrox",
+          "1-3": "Leona",
+          "2-5": "Nautilus"
+        },
+        "4-2": {
+          "4-7": "Lux",
+          "1-4": "Taric",
+          "2-7": "Aatrox",
+          "2-5": "Thresh",
+          "1-3": "Leona"
+        },
+        "4-3": {
+          "1-4": "Kled",
+          "2-6": "Aatrox",
+          "2-4": "Thresh",
+          "1-2": "Leona"
+        },
+        "4-5": {
+          "4-6": "Aphelios",
+          "4-5": "Kindred",
+          "1-2": "Garen",
+          "1-5": "Thresh",
+          "2-4": "Sejuani",
+          "2-5": "Nautilus",
+          "4-7": "Lux"
+        },
+        "4-6": {
+          "3-6": "Thresh",
+          "4-6": "Aphelios",
+          "4-7": "Kindred",
+          "3-3": "Garen",
+          "4-5": "Rell",
+          "3-4": "Taric",
+          "3-7": "Nautilus",
+          "3-5": "Sejuani"
+        },
+        "5-1": {
+          "4-6": "Aphelios",
+          "3-6": "Thresh",
+          "4-7": "Kindred",
+          "3-3": "Garen",
+          "3-4": "Taric",
+          "4-5": "Rell",
+          "3-7": "Nautilus",
+          "3-5": "Sejuani"
+        }
+      }
     }
   ]
 }
