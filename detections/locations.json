@@ -3,12 +3,12 @@
     {
       "row": 1,
       "column1": 126,
-      "column2": 244,
-      "column3": 245,
-      "column4": 379,
+      "column2": 245,
+      "column3": 247,
+      "column4": 380,
       "column5": 316,
-      "column6": 299,
-      "column7": 210
+      "column6": 302,
+      "column7": 211
     },
     {
       "row": 2,
@@ -22,23 +22,23 @@
     },
     {
       "row": 3,
-      "column1": 185,
+      "column1": 186,
       "column2": 131,
       "column3": 50,
       "column4": 91,
-      "column5": 106,
-      "column6": 275,
-      "column7": 485
+      "column5": 108,
+      "column6": 284,
+      "column7": 495
     },
     {
       "row": 4,
-      "column1": 559,
-      "column2": 272,
-      "column3": 226,
-      "column4": 332,
-      "column5": 470,
-      "column6": 602,
-      "column7": 828
+      "column1": 566,
+      "column2": 277,
+      "column3": 228,
+      "column4": 334,
+      "column5": 479,
+      "column6": 613,
+      "column7": 836
     }
   ],
   "aatrox": [
@@ -70,7 +70,7 @@
       "column4": 0,
       "column5": 0,
       "column6": 0,
-      "column7": 24
+      "column7": 25
     },
     {
       "row": 4,
@@ -122,7 +122,7 @@
       "column4": 0,
       "column5": 0,
       "column6": 4,
-      "column7": 12
+      "column7": 17
     }
   ],
   "ashe": [
@@ -163,7 +163,7 @@
       "column3": 1,
       "column4": 0,
       "column5": 5,
-      "column6": 26,
+      "column6": 30,
       "column7": 51
     }
   ],
@@ -195,17 +195,17 @@
       "column3": 3,
       "column4": 3,
       "column5": 0,
-      "column6": 3,
+      "column6": 4,
       "column7": 23
     },
     {
       "row": 4,
       "column1": 58,
-      "column2": 37,
+      "column2": 41,
       "column3": 9,
       "column4": 7,
       "column5": 17,
-      "column6": 77,
+      "column6": 81,
       "column7": 33
     }
   ],
@@ -406,7 +406,7 @@
       "column4": 0,
       "column5": 0,
       "column6": 12,
-      "column7": 12
+      "column7": 14
     },
     {
       "row": 4,
@@ -620,13 +620,13 @@
     },
     {
       "row": 4,
-      "column1": 59,
-      "column2": 7,
+      "column1": 62,
+      "column2": 8,
       "column3": 0,
       "column4": 1,
       "column5": 4,
       "column6": 21,
-      "column7": 119
+      "column7": 122
     }
   ],
   "karma": [
@@ -656,7 +656,7 @@
       "column2": 1,
       "column3": 2,
       "column4": 4,
-      "column5": 1,
+      "column5": 2,
       "column6": 3,
       "column7": 1
     },
@@ -788,7 +788,7 @@
     },
     {
       "row": 4,
-      "column1": 0,
+      "column1": 1,
       "column2": 5,
       "column3": 6,
       "column4": 1,
@@ -868,7 +868,7 @@
       "column4": 2,
       "column5": 1,
       "column6": 12,
-      "column7": 16
+      "column7": 19
     },
     {
       "row": 4,
@@ -876,7 +876,7 @@
       "column2": 2,
       "column3": 2,
       "column4": 7,
-      "column5": 7,
+      "column5": 9,
       "column6": 11,
       "column7": 0
     }
@@ -988,7 +988,7 @@
     },
     {
       "row": 3,
-      "column1": 1,
+      "column1": 2,
       "column2": 2,
       "column3": 1,
       "column4": 0,
@@ -1204,7 +1204,7 @@
       "column4": 0,
       "column5": 1,
       "column6": 2,
-      "column7": 0
+      "column7": 1
     },
     {
       "row": 4,
@@ -1288,15 +1288,15 @@
       "column4": 1,
       "column5": 3,
       "column6": 5,
-      "column7": 42
+      "column7": 45
     },
     {
       "row": 4,
-      "column1": 1,
+      "column1": 2,
       "column2": 11,
       "column3": 5,
-      "column4": 18,
-      "column5": 29,
+      "column4": 19,
+      "column5": 30,
       "column6": 5,
       "column7": 2
     }
@@ -1390,10 +1390,10 @@
       "row": 1,
       "column1": 10,
       "column2": 62,
-      "column3": 22,
+      "column3": 23,
       "column4": 10,
       "column5": 29,
-      "column6": 52,
+      "column6": 55,
       "column7": 12
     },
     {
@@ -1538,7 +1538,7 @@
       "column2": 3,
       "column3": 6,
       "column4": 0,
-      "column5": 5,
+      "column5": 6,
       "column6": 1,
       "column7": 2
     },
@@ -1590,7 +1590,7 @@
       "column2": 1,
       "column3": 2,
       "column4": 7,
-      "column5": 11,
+      "column5": 13,
       "column6": 6,
       "column7": 0
     }
@@ -1683,9 +1683,9 @@
     {
       "row": 1,
       "column1": 43,
-      "column2": 8,
+      "column2": 9,
       "column3": 9,
-      "column4": 0,
+      "column4": 1,
       "column5": 3,
       "column6": 15,
       "column7": 48
@@ -1707,7 +1707,7 @@
       "column3": 0,
       "column4": 0,
       "column5": 2,
-      "column6": 0,
+      "column6": 1,
       "column7": 0
     },
     {
@@ -1833,7 +1833,7 @@
       "column3": 0,
       "column4": 0,
       "column5": 2,
-      "column6": 16,
+      "column6": 19,
       "column7": 2
     },
     {
@@ -1917,7 +1917,7 @@
       "column3": 1,
       "column4": 11,
       "column5": 12,
-      "column6": 43,
+      "column6": 47,
       "column7": 37
     },
     {
@@ -1968,7 +1968,7 @@
       "column2": 0,
       "column3": 2,
       "column4": 9,
-      "column5": 3,
+      "column5": 4,
       "column6": 2,
       "column7": 1
     }
@@ -1978,11 +1978,11 @@
       "row": 1,
       "column1": 0,
       "column2": 4,
-      "column3": 9,
+      "column3": 10,
       "column4": 7,
       "column5": 10,
       "column6": 2,
-      "column7": 1
+      "column7": 2
     },
     {
       "row": 2,
@@ -2008,9 +2008,9 @@
       "row": 4,
       "column1": 1,
       "column2": 1,
-      "column3": 0,
-      "column4": 1,
-      "column5": 0,
+      "column3": 1,
+      "column4": 2,
+      "column5": 1,
       "column6": 5,
       "column7": 1
     }
@@ -2048,12 +2048,12 @@
     },
     {
       "row": 4,
-      "column1": 9,
+      "column1": 11,
       "column2": 6,
       "column3": 2,
       "column4": 1,
-      "column5": 6,
-      "column6": 33,
+      "column5": 8,
+      "column6": 36,
       "column7": 21
     }
   ],
@@ -2344,7 +2344,7 @@
       "row": 4,
       "column1": 12,
       "column2": 7,
-      "column3": 3,
+      "column3": 4,
       "column4": 1,
       "column5": 16,
       "column6": 16,
