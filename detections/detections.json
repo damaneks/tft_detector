@@ -11971,6 +11971,124 @@
           "1-1": "Brand"
         }
       }
+    },
+    {
+      "id": 77,
+      "player": "Kiyoon",
+      "place_ended": "2",
+      "date": "2021-05-31",
+      "region": "America",
+      "rounds": {
+        "1-3": {
+          "1-2": "Udyr"
+        },
+        "1-4": {
+          "1-3": "Warwick"
+        },
+        "2-2": {
+          "1-2": "Hecarim",
+          "1-4": "Hecarim",
+          "1-3": "Kled"
+        },
+        "2-5": {},
+        "2-6": {
+          "4-7": "Ziggs",
+          "4-6": "Brand",
+          "4-5": "Poppy"
+        },
+        "3-2": {
+          "4-7": "Ziggs",
+          "1-6": "Kennen",
+          "3-6": "Kled",
+          "3-7": "Poppy",
+          "4-5": "Thresh",
+          "4-6": "Brand"
+        },
+        "3-3": {
+          "3-7": "Poppy",
+          "4-7": "Brand",
+          "3-6": "Kled",
+          "4-5": "Thresh",
+          "1-5": "Kennen"
+        },
+        "3-6": {
+          "4-5": "Thresh",
+          "3-7": "Poppy",
+          "3-6": "Kled",
+          "4-6": "Lulu"
+        },
+        "4-3": {
+          "1-4": "Garen",
+          "4-6": "Lulu",
+          "4-5": "Thresh",
+          "3-7": "Poppy",
+          "3-6": "Taric",
+          "1-3": "Kled"
+        },
+        "4-5": {
+          "1-2": "Kled",
+          "1-6": "Kennen",
+          "4-7": "Ziggs",
+          "4-6": "Lulu",
+          "3-7": "Poppy",
+          "3-6": "Taric",
+          "4-5": "Thresh",
+          "1-4": "Garen"
+        },
+        "5-1": {
+          "1-6": "Kennen",
+          "4-4": "Ivern",
+          "4-7": "Heimerdinger",
+          "3-6": "Poppy"
+        },
+        "5-2": {
+          "4-7": "Heimerdinger",
+          "4-4": "Ivern",
+          "3-6": "Poppy",
+          "1-5": "Garen",
+          "4-6": "Kled",
+          "1-3": "Kled"
+        },
+        "6-1": {
+          "1-6": "Kennen",
+          "2-7": "Ivern",
+          "3-1": "Ryze",
+          "3-7": "Kindred",
+          "4-7": "Teemo",
+          "2-4": "Garen"
+        },
+        "6-2": {
+          "4-7": "Teemo",
+          "1-3": "Volibear",
+          "4-5": "Heimerdinger",
+          "2-4": "Garen",
+          "3-6": "Kindred",
+          "1-7": "Ivern",
+          "1-1": "Ivern"
+        },
+        "6-3": {
+          "1-6": "Kennen",
+          "3-7": "Lulu",
+          "4-6": "Lulu",
+          "3-6": "Kindred",
+          "1-5": "Volibear",
+          "2-3": "Garen",
+          "1-2": "Taric"
+        },
+        "6-5": {
+          "3-6": "Kindred",
+          "4-5": "Kha'Zix",
+          "1-3": "Taric",
+          "2-2": "Garen"
+        },
+        "6-6": {
+          "4-5": "Heimerdinger",
+          "4-2": "Heimerdinger",
+          "4-7": "Teemo",
+          "2-2": "Garen",
+          "3-6": "Kindred"
+        }
+      }
     }
   ]
 }
